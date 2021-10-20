@@ -2,7 +2,8 @@
 	"type": "module",
 	"private": true,
 	"scripts": {
-		"start": "gulp"
+		"start": "gulp",
+		"build": "gulp build"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.10.2",

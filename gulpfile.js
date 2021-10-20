@@ -89,3 +89,6 @@ export const watch = () => {
 // Default
 
 export default gulp.series(clean, gulp.parallel(html, styles, scripts, copy), gulp.parallel(watch, server));
+
+// cобрать проект
+export const build = gulp.series(clean, gulp.parallel(html, styles, scripts, copy));
