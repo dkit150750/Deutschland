@@ -1,15 +1,15 @@
-@import './styles/fonts.css';
-@import './styles/base.css';
-@import './styles/header.css';
-@import './styles/header-mobile-menu.css';
-@import './styles/header-menu.css';
-@import './styles/footer.css';
+@import "./styles/fonts.css";
+@import "./styles/base.css";
+@import "./styles/header.css";
+@import "./styles/header-mobile-menu.css";
+@import "./styles/header-menu.css";
+@import "./styles/footer.css";
 
 .link {
-	color: var(--link-color);
-	text-decoration: none;
+  color: var(--link-color);
+  text-decoration: none;
 }
 
 .main {
-	display: grid;
+  display: grid;
 }
