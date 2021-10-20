@@ -1,5 +1,13 @@
 /* map */
+
+@media (min-width: 1200px) {
+	.map {
+		padding: 0 var(--padding-x);
+	}
+}
+
 .map__container {
+	--container-max-width: calc(1340px + var(--padding-x));
 	position: relative;
 	display: grid;
 	gap: 10px;
@@ -9,12 +17,6 @@
 
 .map__img--wrapper {
 	max-width: 1000px;
-}
-
-@media (min-width: 1200px) {
-	.map__img--wrapper {
-		margin-left: 5%;
-	}
 }
 
 .map__img--inner {
@@ -48,7 +50,7 @@
 	.map__description-wrapper {
 		position: absolute;
 		top: 10%;
-		right: 7%;
+		right: 0;
 		padding: 40px;
 		max-width: 450px;
 		box-shadow: 2px 4px 9px 1px rgba(0, 0, 0, 0.28);

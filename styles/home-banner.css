@@ -25,12 +25,12 @@
 
 .home-banner__title-image {
 	display: block;
-	max-width: 160px;
 }
 
 @media (min-width: 768px) {
 	.home-banner__title-image {
-		max-width: 320px;
+		width: 320px;
+		height: auto;
 	}
 }
 

@@ -6,7 +6,8 @@
 }
 
 :root {
-	--container-max-width: calc(1512px + 32px);
+	--padding-x: 20px;
+	--container-max-width: calc(1510px + var(--padding-x));
 	--page-color: #191919;
 	--page-backgound: #ffffff;
 	--heading-color: #0b492d;
@@ -15,7 +16,6 @@
 	--green-color-800: #0b492d;
 	--link-color: #648a5b;
 	--mobile-menu-button-color: #004d1b;
-	--padding-x: 20px;
 }
 
 .sr-only {

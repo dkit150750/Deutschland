@@ -5,11 +5,22 @@
 @import '/styles/home-banner.css';
 
 
+@media (min-width: 1200px) {
+	.page__main-sections {
+		margin-bottom: 80px;
+	}
+}
+
 /* main-sections */
 .page__main-sections {
 	margin-bottom: 20px;
 }
 
+@media (min-width: 1200px) {
+	.page__main-sections {
+		margin-bottom: 80px;
+	}
+}
 
 /* home-baner */
 .page__home-banner {

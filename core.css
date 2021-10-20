@@ -1,61 +1,15 @@
 @import '/fonts/fonts.css';
 @import '/fonts/base.css';
 @import '/fonts/header.css';
+@import '/fonts/footer.css';
 
 
-.menu,
-.mobile-menu {
-	--link-color: #353837;
+.link {
+	color: var(--link-color);
+	text-decoration: none;
 }
 
 
 .main {
 	display: grid;
-}
-
-.footer {
-	--foote-color: #ffffff;
-	color: var(--foote-color);
-	background-color: var(--green-color-700);
-}
-
-.footer__top-container {
-	display: flex;
-	justify-content: center;
-	padding: 36px var(--padding-x) 16px;
-}
-
-@media (min-width: 768px) {
-	.footer__top-container {
-		padding: 56px var(--padding-x) 25px;
-	}
-}
-
-.footer__logo {
-	max-width: 100%;
-	display: block;
-}
-
-.footer__bottom-container {
-	display: flex;
-	justify-content: center;
-	padding: 16px 16px;
-	font-size: 10px;
-	border-top: 1px solid var(--green-color-800);
-}
-
-@media (min-width: 430px) {
-	.footer__bottom-container {
-		padding: 20px 16px;
-		font-size: 15px;
-	}
-}
-
-.footer__copy {
-	margin: 0;
-}
-
-.link {
-	color: var(--link-color);
-	text-decoration: none;
 }
