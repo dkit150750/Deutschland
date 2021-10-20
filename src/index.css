@@ -1,8 +1,8 @@
-@import '/styles/home-slider.css';
-@import '/styles/home-about.css';
-@import '/styles/home-main-sections.css';
-@import '/styles/home-map.css';
-@import '/styles/home-banner.css';
+@import './styles/home/home-slider.css';
+@import './styles/home/home-about.css';
+@import './styles/home/home-main-sections.css';
+@import './styles/home/home-map.css';
+@import './styles/home/home-banner.css';
 
 
 @media (min-width: 1200px) {
@@ -22,7 +22,7 @@
 	}
 }
 
-/* home-baner */
+/* home-banner */
 .page__home-banner {
 	margin-top: 20px;
 }

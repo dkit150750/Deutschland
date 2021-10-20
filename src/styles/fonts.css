@@ -4,7 +4,7 @@
 	font-style: normal;
 	font-weight: 400;
 	src: local(''),
-		url('/fonts/playfair-display-v22-latin-regular.woff2') format('woff2');
+		url('./fonts/playfair-display-v22-latin-regular.woff2') format('woff2');
 }
 
 /* playfair-display-500 - latin */
@@ -13,7 +13,7 @@
 	font-style: normal;
 	font-weight: 500;
 	src: local(''),
-		url('/fonts/playfair-display-v22-latin-500.woff2') format('woff2');
+		url('./fonts/playfair-display-v22-latin-500.woff2') format('woff2');
 }
 
 /* playfair-display-600 - latin */
@@ -22,7 +22,7 @@
 	font-style: normal;
 	font-weight: 600;
 	src: local(''),
-		url('/fonts/playfair-display-v22-latin-600.woff2') format('woff2');
+		url('./fonts/playfair-display-v22-latin-600.woff2') format('woff2');
 }
 
 /* playfair-display-800 - latin */
@@ -31,7 +31,7 @@
 	font-style: normal;
 	font-weight: 800;
 	src: local(''),
-		url('/fonts/playfair-display-v22-latin-800.woff2') format('woff2');
+		url('./fonts/playfair-display-v22-latin-800.woff2') format('woff2');
 }
 
 /* playfair-display-700 - latin */
@@ -40,7 +40,7 @@
 	font-style: normal;
 	font-weight: 700;
 	src: local(''),
-		url('/fonts/playfair-display-v22-latin-700.woff2') format('woff2');
+		url('./fonts/playfair-display-v22-latin-700.woff2') format('woff2');
 }
 
 /* playfair-display-900 - latin */
@@ -49,7 +49,7 @@
 	font-style: normal;
 	font-weight: 900;
 	src: local(''),
-		url('/fonts/playfair-display-v22-latin-900.woff2') format('woff2');
+		url('./fonts/playfair-display-v22-latin-900.woff2') format('woff2');
 }
 
 /* playfair-display-500italic - latin */
@@ -58,7 +58,7 @@
 	font-style: italic;
 	font-weight: 500;
 	src: local(''),
-		url('/fonts/playfair-display-v22-latin-500italic.woff2') format('woff2');
+		url('./fonts/playfair-display-v22-latin-500italic.woff2') format('woff2');
 }
 
 /* playfair-display-italic - latin */
@@ -67,7 +67,7 @@
 	font-style: italic;
 	font-weight: 400;
 	src: local(''),
-		url('/fonts/playfair-display-v22-latin-italic.woff2') format('woff2');
+		url('./fonts/playfair-display-v22-latin-italic.woff2') format('woff2');
 }
 
 /* playfair-display-600italic - latin */
@@ -76,7 +76,7 @@
 	font-style: italic;
 	font-weight: 600;
 	src: local(''),
-		url('/fonts/playfair-display-v22-latin-600italic.woff2') format('woff2');
+		url('./fonts/playfair-display-v22-latin-600italic.woff2') format('woff2');
 }
 
 /* playfair-display-700italic - latin */
@@ -85,7 +85,7 @@
 	font-style: italic;
 	font-weight: 700;
 	src: local(''),
-		url('/fonts/playfair-display-v22-latin-700italic.woff2') format('woff2');
+		url('./fonts/playfair-display-v22-latin-700italic.woff2') format('woff2');
 }
 
 /* playfair-display-800italic - latin */
@@ -94,7 +94,7 @@
 	font-style: italic;
 	font-weight: 800;
 	src: local(''),
-		url('/fonts/playfair-display-v22-latin-800italic.woff2') format('woff2');
+		url('./fonts/playfair-display-v22-latin-800italic.woff2') format('woff2');
 }
 
 /* playfair-display-900italic - latin */
@@ -103,5 +103,5 @@
 	font-style: italic;
 	font-weight: 900;
 	src: local(''),
-		url('/fonts/playfair-display-v22-latin-900italic.woff2') format('woff2');
+		url('./fonts/playfair-display-v22-latin-900italic.woff2') format('woff2');
 }

@@ -1,6 +1,3 @@
-@import '/fonts/header-mobile-menu.css';
-@import '/fonts/header-menu.css';
-
 .header {
 	--header-background: #ffffff;
 	--link-color: #111513;
