@@ -5,12 +5,12 @@ const swiper = new Swiper('.swiper', {
 	autoplay: {
 		delay: 5000,
 	},
-	// If we need pagination
+	clickable: true,
+
 	pagination: {
 		el: '.swiper-pagination',
+		clickable: true,
 	},
-
-	// Navigation arrows
 
 	breakpoints: {
 		640: {
