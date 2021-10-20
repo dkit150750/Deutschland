@@ -7,6 +7,11 @@ const swiper = new Swiper('.swiper', {
 	},
 	clickable: true,
 
+	keyboard: {
+		enabled: true,
+		onlyInViewport: true,
+	},
+
 	pagination: {
 		el: '.swiper-pagination',
 		clickable: true,
