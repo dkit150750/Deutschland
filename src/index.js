@@ -1,21 +1,23 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
 const swiper = new Swiper('.swiper', {
-  loop: true,
-  autoplay: {
-    delay: 5000,
-  },
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
+	loop: true,
+	autoplay: {
+		delay: 5000,
+	},
+	// If we need pagination
+	pagination: {
+		el: '.swiper-pagination',
+	},
 
-  // Navigation arrows
+	// Navigation arrows
 
-  breakpoints: {
-    640: {
-      navigation: {
-        nextEl: '.swiper__button-next',
-        prevEl: '.swiper__button-prev',
-      },
-    },
-  }
+	breakpoints: {
+		640: {
+			navigation: {
+				nextEl: '.swiper__button-next',
+				prevEl: '.swiper__button-prev',
+			},
+		},
+	},
 });

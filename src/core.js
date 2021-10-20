@@ -3,26 +3,23 @@
 	const mobileMenuButton = document.querySelector('.mobile-menu__button');
 	const mobileMenuButtonClose = document.querySelector('.mobile-menu__header-button');
 	const mobileMenuItemButtons = document.querySelectorAll('.mobile-menu__item-button');
-	const mobileMenuItemButtonsClose = document.querySelectorAll(
-		'.mobile-menu__item .mobile-menu__header-button'
-	);
+	const mobileMenuItemButtonsClose = document.querySelectorAll('.mobile-menu__item .mobile-menu__header-button');
 	const mobileMenu = document.querySelector('.mobile-menu__list-wrapper');
 
 	const mobileMenuHandler = () => {
-		let expanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+		const expanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
 		mobileMenuButton.setAttribute('aria-expanded', !expanded);
-		expanded
-			? mobileMenuButton.setAttribute('aria-label', 'Menü öffnen')
-			: mobileMenuButton.setAttribute('aria-label', 'Menü schließen');
+		if (expanded) {
+			mobileMenuButton.setAttribute('aria-label', 'Menü öffnen');
+
+			mobileMenuButtonClose.focus();
+		} else {
+			mobileMenuButton.setAttribute('aria-label', 'Menü schließen');
+			mobileMenuButton.focus();
+		}
 		mobileMenuButton.classList.toggle('mobile-menu__button--open');
 		mobileMenu.classList.toggle('mobile-menu__list-wrapper--open');
 		body.classList.toggle('page__body--lock');
-
-		if (mobileMenu.classList.contains('mobile-menu__list-wrapper--open')) {
-			mobileMenuButtonClose.focus();
-		} else {
-			mobileMenuButton.focus();
-		}
 	};
 
 	mobileMenuButton.addEventListener('click', mobileMenuHandler);
@@ -36,8 +33,6 @@
 				.querySelector('.mobile-menu__list--sumbenu')
 				.classList.add('mobile-menu__list--sumbenu-open');
 			mobileMenu.scrollTop = 0;
-			// mobileMenu.classList.add('mobile-menu__list-wrapper--lock');
-			// submenu.addEventListener('transitionend', () => {}, { once: true });
 		});
 	});
 
@@ -60,7 +55,6 @@
 			const parent = menuItemButton.closest('.menu__item');
 			parent.querySelector('.menu__list--sumbenu').classList.toggle('menu__list--sumbenu-open');
 			parent.querySelector('.menu__item-overlay').classList.toggle('menu__item-overlay--open');
-			mobileMenu.classList.add('mobile-menu__list-wrapper--lock');
 		});
 	});
 	menuItemOverlays.forEach((menuItemOverlay) => {
