@@ -7,7 +7,7 @@
 
 :root {
 	--padding-x: 20px;
-	--container-max-width: calc(1510px + var(--padding-x));
+	--container-max-width: calc(1510px + var(--padding-x) +  var(--padding-x));
 	--page-color: #191919;
 	--page-backgound: #ffffff;
 	--heading-color: #0b492d;
