@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}
+
+:root {
+	--container-max-width: calc(1512px + 32px);
+	--page-color: #191919;
+	--page-backgound: #ffffff;
+	--heading-color: #0b492d;
+	--green-color-600: #72a18d;
+	--green-color-700: #1b5f41;
+	--green-color-800: #0b492d;
+	--link-color: #648a5b;
+	--mobile-menu-button-color: #004d1b;
+	--padding-x: 20px;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+
+.page,
+.page__body {
+	height: 100%;
+}
+
+.page {
+	font-family: 'Playfair Display', serif;
+	line-height: 1.5;
+	font-size: 16px;
+	color: var(--page-color);
+	background-color: var(--page-backgound);
+}
+
+@media (min-width: 768px) {
+	.page {
+		font-size: 18px;
+	}
+}
+
+.page__body {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: min-content 1fr min-content;
+	margin: 0;
+}
+
+.page__body--lock {
+	height: 100vh;
+	overflow: hidden;
+}

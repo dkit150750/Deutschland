@@ -1,0 +1,26 @@
+@import '/fonts/header-mobile-menu.css';
+@import '/fonts/header-menu.css';
+
+.header {
+	--header-background: #ffffff;
+	--link-color: #111513;
+	position: relative;
+	background-color: var(--header-background);
+	z-index: 1000;
+}
+
+.header__container {
+	display: grid;
+	grid-template-columns: min-content 1fr;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	max-width: var(--container-max-width);
+	height: 70px;
+	padding: 0 var(--padding-x);
+	margin: 0 auto;
+}
+
+.logo__img {
+	max-width: 105px;
+}

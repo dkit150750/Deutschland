@@ -1,0 +1,66 @@
+.home-baner {
+	padding: 34px 0 20px;
+	background-color: #0a1507;
+	background-image: url('/images/home-banner.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+@media (min-width: 768px) {
+	.home-baner {
+		padding: 60px 0 40px;
+	}
+}
+
+.home-baner__container {
+	padding: 0 var(--padding-x);
+}
+
+@media (min-width: 768px) {
+	.home-baner__container {
+		display: flex;
+	}
+}
+
+.home-banner__title-image {
+	display: block;
+	max-width: 160px;
+}
+
+@media (min-width: 768px) {
+	.home-banner__title-image {
+		max-width: 320px;
+	}
+}
+
+
+.home-banner__description {
+	font-size: 10px;
+	color: #ffffff;
+	margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+	.home-banner__description {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 568px) {
+	.home-baner__inner {
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 920px) {
+	.home-baner__inner {
+		transform: translateX(150px);
+	}
+}
+
+@media (min-width: 768px) {
+	.home-banner__description {
+		max-width: 520px;
+	}
+}

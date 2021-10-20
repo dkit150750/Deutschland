@@ -1,0 +1,17 @@
+@import '/styles/home-slider.css';
+@import '/styles/home-about.css';
+@import '/styles/home-main-sections.css';
+@import '/styles/home-map.css';
+@import '/styles/home-banner.css';
+
+
+/* main-sections */
+.page__main-sections {
+	margin-bottom: 20px;
+}
+
+
+/* home-baner */
+.page__home-banner {
+	margin-top: 20px;
+}
