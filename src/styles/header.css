@@ -35,12 +35,6 @@
 	}
 }
 
-@media (min-width: 1550px) {
-	.header__container {
-		padding: 0;
-	}
-}
-
 .logo__image {
 	display: block;
 
