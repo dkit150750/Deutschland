@@ -1,29 +1,29 @@
 .page {
-  color: var(--page-color);
-  font-size: 16px;
-  font-family: "Playfair Display", serif;
-  line-height: 1.5;
+	color: var(--page-color);
+	font-size: 16px;
+	font-family: 'Playfair Display', serif;
+	line-height: 1.5;
 
-  background-color: var(--page-backgound);
+	background-color: var(--page-backgound);
 }
 
 @media (min-width: 768px) {
-  .page {
-    font-size: 18px;
-  }
+	.page {
+		font-size: 18px;
+	}
 }
 
 .page__body {
-  display: grid;
-  grid-template-rows: min-content 1fr min-content;
-  grid-template-columns: 1fr;
+	display: grid;
+	grid-template-rows: min-content minmax(min-content, 1fr) min-content;
+	grid-template-columns: 1fr;
 
-  min-height: 100vh;
-  margin: 0;
+	min-height: 100vh;
+	margin: 0;
 }
 
 .page__body--lock {
-  height: 100vh;
+	height: 100vh;
 
-  overflow: hidden;
+	overflow: hidden;
 }

@@ -5,6 +5,7 @@ import postcss from 'gulp-postcss';
 import replace from 'gulp-replace';
 import htmlmin from 'gulp-htmlmin';
 import terser from 'gulp-terser';
+import sourcemaps from 'gulp-sourcemaps';
 import pimport from 'postcss-import';
 import minmax from 'postcss-media-minmax';
 import autoprefixer from 'autoprefixer';
@@ -32,7 +33,9 @@ export const html = () =>
 export const styles = () =>
 	gulp
 		.src('src/*.css')
+		.pipe(sourcemaps.init())
 		.pipe(postcss([pimport, minmax, autoprefixer, csso]))
+		.pipe(sourcemaps.write('./'))
 		.pipe(replace(/\.\.\//g, ''))
 		.pipe(gulp.dest('dist'))
 		.pipe(sync.stream());
@@ -47,7 +50,9 @@ export const scripts = () =>
 				presets: ['@babel/preset-env'],
 			}),
 		)
+		.pipe(sourcemaps.init())
 		.pipe(terser())
+		.pipe(sourcemaps.write('./'))
 		.pipe(gulp.dest('dist'))
 		.pipe(sync.stream());
 

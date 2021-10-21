@@ -1,36 +1,50 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
 }
 
 :root {
-  --padding-x: 20px;
-  --container-max-width: calc(1510px + var(--padding-x) + var(--padding-x));
-  --page-color: hsl(0, 0%, 10%);
-  --page-backgound: hsl(0, 0%, 100%);
-  --green-color-600: hsl(154, 20%, 54%);
-  --green-color-650: hsl(109, 21%, 45%);
-  --green-color-700: hsl(154, 56%, 24%);
-  --green-color-800: hsl(153, 74%, 16%);
-  --green-color-850: hsl(141, 100%, 15%);
-  --link-color: var(--green-color-650);
-  --mobile-menu-button-color: var(--green-color-850);
-  --heading-color: var(--green-color-800);
+	--padding-x: 20px;
+	--container-max-width: calc(1510px + var(--padding-x) + var(--padding-x));
+	--page-color: hsl(0, 0%, 10%);
+	--page-backgound: hsl(0, 0%, 100%);
+	--green-color-600: hsl(154, 20%, 54%);
+	--green-color-650: hsl(109, 21%, 45%);
+	--green-color-700: hsl(154, 56%, 24%);
+	--green-color-800: hsl(153, 74%, 16%);
+	--green-color-850: hsl(141, 100%, 15%);
+	--link-color: var(--green-color-650);
+	--mobile-menu-button-color: var(--green-color-850);
+	--heading-color: var(--green-color-800);
 }
 
 .sr-only {
-  position: absolute;
+	position: absolute;
 
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
 
-  border: 0;
+	border: 0;
 
-  overflow: hidden;
+	overflow: hidden;
 
-  clip: rect(0, 0, 0, 0);
+	clip: rect(0, 0, 0, 0);
+}
+
+a,
+button,
+input {
+	outline: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+input:focus-visible {
+	box-shadow: 0 0 0 2px var(--green-color-850);
 }

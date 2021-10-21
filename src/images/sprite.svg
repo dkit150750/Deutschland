@@ -5,7 +5,11 @@
     </path>
   </symbol>
 
-  <symbol xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" id="arrow-down">
+  <symbol xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 7" id="arrow-down">
+    <path d="M2 1L7 6L12 1" stroke="#343736" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" id="">
     <path
       d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
   </symbol>
