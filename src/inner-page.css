@@ -13,12 +13,12 @@
 
   display: block;
 
-  max-width: 244px;
+  max-width: 195px;
   max-height: 100%;
 }
 
 @media (min-width: 1000px) {
   .main__zweig {
-    max-width: 540px;
+    max-width: 420px;
   }
 }
