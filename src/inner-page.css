@@ -1,6 +1,10 @@
 @import "./styles/inner-page/parallax.css";
 @import "./styles/inner-page/breadcrumbs.css";
 
+.main__content {
+  position: relative;
+}
+
 .main__zweig {
   position: absolute;
   top: 0;
@@ -10,53 +14,11 @@
   display: block;
 
   max-width: 244px;
+  max-height: 100%;
 }
 
 @media (min-width: 1000px) {
   .main__zweig {
     max-width: 540px;
-  }
-}
-
-.titile-h2 {
-  margin: 0 0 0.4em;
-
-  color: var(--heading-color);
-  font-size: 30px;
-  line-height: 1.3;
-}
-
-@media (min-width: 450px) {
-  .titile-h2 {
-    font-size: 35px;
-  }
-}
-
-@media (min-width: 768px) {
-  .titile-h2 {
-    font-size: 42px;
-  }
-}
-
-.text {
-  margin: 0;
-
-  font-size: 13px;
-  line-height: 1.8;
-}
-
-.text + .text {
-  margin-top: 1.3em;
-}
-
-@media (min-width: 450px) {
-  .text {
-    font-size: 15px;
-  }
-}
-
-@media (min-width: 768px) {
-  .text {
-    font-size: 19px;
   }
 }

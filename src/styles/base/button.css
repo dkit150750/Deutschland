@@ -1,0 +1,40 @@
+.button {
+  --background: var(--green-color-600);
+
+  padding: 1.2em 1.9em;
+
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-family: inherit;
+  line-height: 1;
+
+  border: 0;
+
+  background-color: var(--background);
+
+  cursor: pointer;
+}
+
+@media (min-width: 450px) {
+  .button {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .button {
+    font-size: 20px;
+  }
+}
+
+.button:focus {
+  border-radius: 4px;
+
+  outline: none;
+
+  box-shadow: 0 0 0 2px var(--green-color-850);
+}
+
+.button--inactive {
+  --background: hsl(0, 0%, 85%);
+}

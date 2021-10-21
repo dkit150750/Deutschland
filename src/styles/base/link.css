@@ -1,0 +1,9 @@
+.link {
+  color: var(--link-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link--italic {
+  font-style: italic;
+}
