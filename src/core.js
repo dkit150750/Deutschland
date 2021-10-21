@@ -1,16 +1,6 @@
 /* eslint-disable max-classes-per-file */
 {
 	class Menu {
-		menuItemButtons = [];
-
-		menu = false;
-
-		isOpenSubmenu = false;
-
-		openMenuItem = null;
-
-		currentMenuItemButton = null;
-
 		constructor(select) {
 			this.menu = document.querySelector(select);
 		}
@@ -96,16 +86,6 @@
 
 {
 	class MobileMenu {
-		menuItemButtons = [];
-
-		menuItemButtonsClose = [];
-
-		menu = null;
-
-		burger = null;
-
-		isOpenMenu = false;
-
 		constructor(selectMenu, selectBurger) {
 			this.menu = document.querySelector(selectMenu);
 			this.burger = document.querySelector(selectBurger);
@@ -183,49 +163,4 @@
 
 	const mobileMenu = new MobileMenu('.mobile-menu__list-wrapper', '.mobile-menu__button');
 	mobileMenu.run();
-	// const body = document.querySelector('.page__body');
-	// const mobileMenuButton = document.querySelector('.mobile-menu__button');
-	// const mobileMenuButtonClose = document.querySelector('.mobile-menu__header-button');
-	// const mobileMenuItemButtons = document.querySelectorAll('.mobile-menu__item-button');
-	// const mobileMenuItemButtonsClose = document.querySelectorAll('.mobile-menu__item .mobile-menu__header-button');
-	// const mobileMenu = document.querySelector('.mobile-menu__list-wrapper');
-
-	// const mobileMenuHandler = () => {
-	// 	const expanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
-	// 	mobileMenuButton.setAttribute('aria-expanded', !expanded);
-	// 	if (expanded) {
-	// 		mobileMenuButton.setAttribute('aria-label', 'Menü öffnen');
-
-	// 		mobileMenuButtonClose.focus();
-	// 	} else {
-	// 		mobileMenuButton.setAttribute('aria-label', 'Menü schließen');
-	// 		mobileMenuButton.focus();
-	// 	}
-	// 	mobileMenuButton.classList.toggle('mobile-menu__button--open');
-	// 	mobileMenu.classList.toggle('mobile-menu__list-wrapper--open');
-	// 	body.classList.toggle('page__body--lock');
-	// };
-
-	// mobileMenuButton.addEventListener('click', mobileMenuHandler);
-
-	// mobileMenuButtonClose.addEventListener('click', mobileMenuHandler);
-
-	// mobileMenuItemButtons.forEach((mobileMenuItemButton) => {
-	// 	mobileMenuItemButton.addEventListener('click', () => {
-	// 		mobileMenuItemButton
-	// 			.closest('.mobile-menu__item')
-	// 			.querySelector('.mobile-menu__list--sumbenu')
-	// 			.classList.add('mobile-menu__list--sumbenu-open');
-	// 		mobileMenu.scrollTop = 0;
-	// 	});
-	// });
-
-	// mobileMenuItemButtonsClose.forEach((mobileMenuItemButtonClose) => {
-	// 	mobileMenuItemButtonClose.addEventListener('click', () => {
-	// 		mobileMenuItemButtonClose
-	// 			.closest('.mobile-menu__list--sumbenu')
-	// 			.classList.remove('mobile-menu__list--sumbenu-open');
-	// 		mobileMenu.classList.remove('mobile-menu__list-wrapper--lock');
-	// 	});
-	// });
 }
