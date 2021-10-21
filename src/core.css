@@ -4,12 +4,3 @@
 @import "./styles/header-mobile-menu.css";
 @import "./styles/header-menu.css";
 @import "./styles/footer.css";
-
-.link {
-  color: var(--link-color);
-  text-decoration: none;
-}
-
-.main {
-  display: grid;
-}

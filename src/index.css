@@ -26,3 +26,22 @@
 .page__home-banner {
   margin-top: 20px;
 }
+
+.main__wappen {
+  position: absolute;
+  top: 32%;
+  right: 0;
+  z-index: -1;
+
+  width: 284px;
+  height: 486px;
+
+  color: hsl(111, 12%, 88%);
+
+  transform: translateX(50%);
+}
+
+.main__wappen-svg {
+  width: 284px;
+  height: 486px;
+}

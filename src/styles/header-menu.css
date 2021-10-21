@@ -7,13 +7,13 @@
   max-width: 1090px;
 }
 
-.menu--home {
+.page--home .menu {
   justify-self: center;
 
   margin-right: 0;
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 1280px) {
   .menu {
     display: block;
   }

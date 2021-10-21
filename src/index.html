@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="page" lang="de">
+<html class="page page--home" lang="de">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,18 +12,14 @@
 	<body class="page__body">
 		<header class="page__footer header">
 			<div class="header__container">
-				<img
-					class="header__logo logo"
-					src="./images/logo.png"
-					width="105"
-					height="45"
-					alt="Furstenberg Forst"
-				/>
+				<a class="header__logo logo" href="./index.html">
+					<img class="logo__image" src="./images/logo.png" width="105" height="45" alt="Furstenberg Forst" />
+				</a>
 
-				<nav class="header__menu menu menu--home">
+				<nav class="header__menu menu">
 					<ul class="menu__list">
 						<li class="menu__item">
-							<button class="menu__link menu__link--button" href="/holz.html">
+							<button class="menu__link menu__link--button" href="./holz.html">
 								Holz
 								<svg class="menu__link-icon" aria-hidden="true">
 									<use xlink:href="./images/sprite.svg#arrow-down"></use>
@@ -32,33 +28,33 @@
 							<div class="menu__item-overlay"></div>
 							<ul class="menu__list menu__list--sumbenu">
 								<li class="menu__item">
-									<a class="menu__link" href="/stammholz.html">Stammholz</a>
+									<a class="menu__link" href="./stammholz.html">Stammholz</a>
 								</li>
 								<li class="menu__item">
-									<a class="menu__link" href="/brennholz.html">brennholz</a>
+									<a class="menu__link" href="./brennholz.html">brennholz</a>
 								</li>
 							</ul>
 						</li>
 						<li class="menu__item">
-							<a class="menu__link" href="/jagd.html">Jagd</a>
+							<a class="menu__link" href="./jagd.html">Jagd</a>
 						</li>
 						<li class="menu__item">
-							<a class="menu__link" href="/wild.html">Wild</a>
+							<a class="menu__link" href="./wild.html">Wild</a>
 						</li>
 						<li class="menu__item">
-							<a class="menu__link" href="/friedwald.html">FriedWald</a>
+							<a class="menu__link" href="./friedwald.html">FriedWald</a>
 						</li>
 						<li class="menu__item">
-							<a class="menu__link menu__link--active" href="/bewerbungen.html">Bewerbungen</a>
+							<a class="menu__link menu__link--active" href="./bewerbungen.html">Bewerbungen</a>
 						</li>
 						<li class="menu__item">
-							<a class="menu__link" href="/okopunkte.html">Ökopunkte</a>
+							<a class="menu__link" href="./okopunkte.html">Ökopunkte</a>
 						</li>
 						<li class="menu__item">
-							<a class="menu__link" href="/service.html">Service</a>
+							<a class="menu__link" href="./service.html">Service</a>
 						</li>
 						<li class="menu__item">
-							<a class="menu__link" href="/kontakt.html">Kontakt</a>
+							<a class="menu__link" href="./kontakt.html">Kontakt</a>
 						</li>
 					</ul>
 				</nav>
@@ -91,7 +87,7 @@
 								</button>
 							</li>
 							<li class="mobile-menu__item">
-								<p class="mobile-menu__link mobile-menu__link--button" href="/holz.html">Holz</p>
+								<p class="mobile-menu__link mobile-menu__link--button" href="./holz.html">Holz</p>
 								<button class="mobile-menu__item-button" aria-label="Untermenü öffnen">
 									<svg class="mobile-menu__item-button-arrow" aria-hidden="true">
 										<use xlink:href="./images/sprite.svg#arrow"></use>
@@ -112,35 +108,33 @@
 										</button>
 									</li>
 									<li class="mobile-menu__item">
-										<a class="mobile-menu__link" href="/stammholz.html">Stammholz</a>
+										<a class="mobile-menu__link" href="./stammholz.html">Stammholz</a>
 									</li>
 									<li class="mobile-menu__item">
-										<a class="mobile-menu__link" href="/brennholz.html">brennholz</a>
+										<a class="mobile-menu__link" href="./brennholz.html">brennholz</a>
 									</li>
 								</ul>
 							</li>
 							<li class="mobile-menu__item">
-								<a class="mobile-menu__link" href="/jagd.html">Jagd</a>
+								<a class="mobile-menu__link" href="./jagd.html">Jagd</a>
 							</li>
 							<li class="mobile-menu__item">
-								<a class="mobile-menu__link" href="/wild.html">Wild</a>
+								<a class="mobile-menu__link" href="./wild.html">Wild</a>
 							</li>
 							<li class="mobile-menu__item">
-								<a class="mobile-menu__link" href="/friedwald.html">FriedWald</a>
+								<a class="mobile-menu__link" href="./friedwald.html">FriedWald</a>
 							</li>
 							<li class="mobile-menu__item">
-								<a class="mobile-menu__link mobile-menu__link--active" href="/bewerbungen.html"
-									>Bewerbungen</a
-								>
+								<a class="mobile-menu__link mobile-menu__link--active" href="./bewerbungen.html">Bewerbungen</a>
 							</li>
 							<li class="mobile-menu__item">
-								<a class="mobile-menu__link" href="/okopunkte.html">Ökopunkte</a>
+								<a class="mobile-menu__link" href="./okopunkte.html">Ökopunkte</a>
 							</li>
 							<li class="mobile-menu__item">
-								<a class="mobile-menu__link" href="/service.html">Service</a>
+								<a class="mobile-menu__link" href="./service.html">Service</a>
 							</li>
 							<li class="mobile-menu__item">
-								<a class="mobile-menu__link" href="/kontakt.html">Kontakt</a>
+								<a class="mobile-menu__link" href="./kontakt.html">Kontakt</a>
 							</li>
 						</ul>
 					</div>
@@ -148,6 +142,11 @@
 			</div>
 		</header>
 		<main class="page__main main">
+			<div class="main__wappen">
+				<svg class="main__wappen-svg" aria-hidden="true">
+					<use xlink:href="./images/sprite.svg#wappen"></use>
+				</svg>
+			</div>
 			<div class="swiper home-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
@@ -195,13 +194,12 @@
 						<p class="about__subtitle">Herzlich Willkommen beim Forstbetrieb</p>
 						<h1 class="about__title">Fürst zu Fürstenberg</h1>
 						<p class="about__text">
-							Seit mehr als 700 Jahren ist die Familie Fürstenberg auf der Baar, im Schwarzwald, im
-							Hegau und im Linzgau ansässig. Eine planvoll und nachhaltig betriebene Forstwirtschaft
-							stand seit jeher im Zentrum der unternehmerischen Aktivitäten des Hauses. Weil aber
-							der Wald mehr ist, als nur ein Ort zur Holzproduktion, hat besonders die Jagd große
-							Tradition bei Fürstenberg. Wir bekennen uns heute zu einer erwerbswirtschaftlich aber
-							stets im Einklang mit der Natur betriebenen Forstwirtschaft und laden dazu ein, den
-							Forstbetrieb Fürst zu Fürstenberg näher kennenzulernen (<a class="link" href="/"
+							Seit mehr als 700 Jahren ist die Familie Fürstenberg auf der Baar, im Schwarzwald, im Hegau und im Linzgau
+							ansässig. Eine planvoll und nachhaltig betriebene Forstwirtschaft stand seit jeher im Zentrum der
+							unternehmerischen Aktivitäten des Hauses. Weil aber der Wald mehr ist, als nur ein Ort zur Holzproduktion,
+							hat besonders die Jagd große Tradition bei Fürstenberg. Wir bekennen uns heute zu einer
+							erwerbswirtschaftlich aber stets im Einklang mit der Natur betriebenen Forstwirtschaft und laden dazu ein,
+							den Forstbetrieb Fürst zu Fürstenberg näher kennenzulernen (<a class="link" href="./"
 								>Interview SDE 2011</a
 							>).
 						</p>
@@ -213,7 +211,7 @@
 				<h2 class="sr-only">Hauptabschnitte</h2>
 				<ul class="main-sections__list">
 					<li class="main-sections__item">
-						<a class="main-sections__link" href="/holz.html">
+						<a class="main-sections__link" href="./holz.html">
 							<img class="main-sections__image" src="./images/hрauptabschnitte-1.webp" alt="" />
 							<img
 								class="main-sections__image main-sections__image--opacity"
@@ -224,7 +222,7 @@
 						</a>
 					</li>
 					<li class="main-sections__item">
-						<a class="main-sections__link" href="/wild.html">
+						<a class="main-sections__link" href="./wild.html">
 							<img class="main-sections__image" src="./images/hрauptabschnitte-2.webp" alt="" />
 							<img
 								class="main-sections__image main-sections__image--opacity"
@@ -236,7 +234,7 @@
 					</li>
 
 					<li class="main-sections__item">
-						<a class="main-sections__link" href="/jagd.html">
+						<a class="main-sections__link" href="./jagd.html">
 							<img class="main-sections__image" src="./images/hрauptabschnitte-3.webp" alt="" />
 							<img
 								class="main-sections__image main-sections__image--opacity"
@@ -248,7 +246,7 @@
 					</li>
 
 					<li class="main-sections__item">
-						<a class="main-sections__link" href="/friedwald.html">
+						<a class="main-sections__link" href="./friedwald.html">
 							<img class="main-sections__image" src="./images/hрauptabschnitte-4.webp" alt="" />
 							<img
 								class="main-sections__image main-sections__image--opacity"
@@ -271,9 +269,9 @@
 					</div>
 					<div class="map__description-wrapper">
 						<p class="map__description">
-							Seit mehr als 700 Jahren ist die Familie Fürstenberg auf der Baar, im Schwarzwald, im
-							Hegau und im Linzgau ansässig. Eine planvoll und nachhaltig betriebene Forstwirtschaft
-							stand seit jeher im Zentrum der unternehmerischen Aktivitäten des Hauses.
+							Seit mehr als 700 Jahren ist die Familie Fürstenberg auf der Baar, im Schwarzwald, im Hegau und im Linzgau
+							ansässig. Eine planvoll und nachhaltig betriebene Forstwirtschaft stand seit jeher im Zentrum der
+							unternehmerischen Aktivitäten des Hauses.
 						</p>
 					</div>
 				</div>
@@ -283,16 +281,9 @@
 				<h2 class="sr-only">Wald ist klimaschützer</h2>
 				<div class="home-banner__container">
 					<div class="home-banner__inner">
-						<img
-							class="home-banner__title-image"
-							src="./images/home-banner-title.png"
-							width="160"
-							height="39"
-							alt=""
-						/>
+						<img class="home-banner__title-image" src="./images/home-banner-title.png" width="160" height="39" alt="" />
 						<p class="home-banner__description">
-							Drei Viertel der Bevölkerung befürworten eine Vergütung der CO2-Speicherleistung des
-							Waldes
+							Drei Viertel der Bevölkerung befürworten eine Vergütung der CO2-Speicherleistung des Waldes
 						</p>
 					</div>
 				</div>
@@ -300,13 +291,7 @@
 		</main>
 		<footer class="page__footer footer">
 			<div class="footer__top-container">
-				<img
-					class="footer__logo"
-					src="./images/footer-logo.webp"
-					width="280"
-					height="48"
-					alt="Furstenberg Forst"
-				/>
+				<img class="footer__logo" src="./images/footer-logo.webp" width="280" height="48" alt="Furstenberg Forst" />
 			</div>
 			<div class="footer__bottom-container">
 				<p class="footer__copy">Impressum / Datenschutzerklärung © Forumedia</p>

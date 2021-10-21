@@ -10,12 +10,14 @@
   --container-max-width: calc(1510px + var(--padding-x) + var(--padding-x));
   --page-color: hsl(0, 0%, 10%);
   --page-backgound: hsl(0, 0%, 100%);
-  --heading-color: hsl(153, 74%, 16%);
   --green-color-600: hsl(154, 20%, 54%);
+  --green-color-650: hsl(109, 21%, 45%);
   --green-color-700: hsl(154, 56%, 24%);
   --green-color-800: hsl(153, 74%, 16%);
-  --link-color: hsl(109, 21%, 45%);
-  --mobile-menu-button-color: hsl(141, 100%, 15%);
+  --green-color-850: hsl(141, 100%, 15%);
+  --link-color: var(--green-color-650);
+  --mobile-menu-button-color: var(--green-color-850);
+  --heading-color: var(--green-color-800);
 }
 
 .sr-only {
@@ -59,10 +61,25 @@
   grid-template-columns: 1fr;
 
   margin: 0;
+
+  overflow-x: hidden;
 }
 
 .page__body--lock {
   height: 100vh;
 
   overflow: hidden;
+}
+
+.link {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.main {
+  position: relative;
+
+  display: grid;
+  grid-auto-rows: min-content;
+  grid-template-columns: 1fr;
 }
