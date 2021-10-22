@@ -1,0 +1,13 @@
+.okopunkte__container {
+	max-width: 1290px;
+	margin: 0 auto;
+	padding: 0 var(--padding-x);
+}
+
+@media (min-width: 900px) {
+	.okopunkte__columns {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 60px;
+	}
+}
