@@ -8,7 +8,6 @@
 	}
 }
 
-
 @media (min-width: 500px) {
 	.praktika__title {
 		margin-bottom: 35px;
@@ -24,7 +23,6 @@
 		margin-top: 60px;
 	}
 }
-
 
 .praktika__section {
 	padding: 55px 0 25px;
@@ -124,5 +122,4 @@
 .praktika__email {
 	font-weight: 600;
 	text-align: end;
-}
 }
