@@ -13,3 +13,15 @@
 	margin: 0 auto;
 	padding: 0 var(--padding-x);
 }
+
+@media (min-width: 1200px) {
+	.inner-page-content-container--padding-left {
+		padding-left: 80px;
+	}
+}
+
+@media (min-width: 1500px) {
+	.inner-page-content-container--padding-left {
+		padding-left: 120px;
+	}
+}

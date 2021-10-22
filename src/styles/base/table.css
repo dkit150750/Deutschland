@@ -1,0 +1,33 @@
+.table {
+	width: 100%;
+
+	border-collapse: collapse;
+}
+
+.table caption {
+	margin: 0 0 0.4em;
+
+	color: var(--heading-color);
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.3;
+	text-align: start;
+}
+
+@media (min-width: 450px) {
+	.table caption {
+		font-size: 22px;
+	}
+}
+
+.table tr {
+	border-bottom: 1px solid hsl(152, 24%, 88%);
+}
+
+.table td {
+	padding: 8px 0;
+}
+
+.table tr td:nth-child(2) {
+	text-align: end;
+}

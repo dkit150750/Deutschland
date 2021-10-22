@@ -1,17 +1,7 @@
 .jagd__container {
 	position: relative;
-}
 
-@media (min-width: 1200px) {
-	.jagd__container {
-		padding-left: 80px;
-	}
-}
-
-@media (min-width: 1500px) {
-	.jagd__container {
-		padding-left: 160px;
-	}
+	overflow: hidden;
 }
 
 .jagd__image-1 {
