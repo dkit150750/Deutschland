@@ -194,14 +194,12 @@
 }
 
 .mobile-menu__link--active {
-	background-color: hsl(154, 23%, 69%);
+	background-color: hsl(153, 23%, 69%);
 }
 
 .mobile-menu__link:focus,
 .mobile-menu__link:hover {
-	background-color: hsl(154, 24%, 87%);
-
-	outline: none;
+	background-color: hsl(155, 26%, 77%);
 }
 
 /* ============== */

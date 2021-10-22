@@ -8,7 +8,7 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="./core.css" />
 	<link rel="stylesheet" href="./inner-page.css" />
-	<link rel="stylesheet" href="./brennholz.css" />
+	<link rel="stylesheet" href="./jagd.css" />
 </head>
 
 <body class="page__body">
@@ -181,8 +181,8 @@
 						</li>
 						<li class="mobile-menu__item">
 							<a class="mobile-menu__link" href="./jagd.html">Jagd</a>
-							<button class="mobile-menu__item-button" type="button" aria-expanded="false"
-								aria-controls="#jagd-mobile" aria-label="Untermenü öffnen">
+							<button class="mobile-menu__item-button" type="button" aria-expanded="false" aria-controls="#jagd-mobile"
+								aria-label="Untermenü öffnen">
 								<svg class="mobile-menu__item-button-arrow" aria-hidden="true">
 									<use xlink:href="./images/sprite.svg#arrow"></use>
 								</svg>
@@ -254,8 +254,8 @@
 						</li>
 						<li class="mobile-menu__item">
 							<a class="mobile-menu__link" href="./bewerbungen.html">Bewerbungen</a>
-							<button class="mobile-menu__item-button" type="button" aria-expanded="false" aria-controls="#bewerbungen-mobile"
-								aria-label="Untermenü öffnen">
+							<button class="mobile-menu__item-button" type="button" aria-expanded="false"
+								aria-controls="#bewerbungen-mobile" aria-label="Untermenü öffnen">
 								<svg class="mobile-menu__item-button-arrow" aria-hidden="true">
 									<use xlink:href="./images/sprite.svg#arrow"></use>
 								</svg>
@@ -319,7 +319,7 @@
 		<div class="parallax"></div>
 
 		<div class="main__inner">
-			<img class="main__zweig" src="./images/zweig-1.webp" alt="" />
+			<img class="main__zweig" src="./images/zweig-1.webp" width="636" height="476" alt="" />
 			<div class="breadcrumbs">
 				<div class="breadcrumbs__container">
 					<ol class="breadcrumbs__list">
@@ -327,170 +327,37 @@
 							<a class="breadcrumbs__link" href="./index.html">Home</a>
 						</li>
 						<li class="breadcrumbs__item">
-							<a class="breadcrumbs__link" href="./holz.html">Holz</a>
-						</li>
-						<li class="breadcrumbs__item">
-							<span class="breadcrumbs__link">Brennholz</span>
+							<span class="breadcrumbs__link">Jagd</span>
 						</li>
 					</ol>
 				</div>
 			</div>
 
-			<div class="brennholz-form-section inner-page-content">
-				<div class="brennholz-form-section__container inner-page-content-container">
-					<h1 class="title-h2">Brennholz</h1>
+			<div class="jagd inner-page-content">
+				<div class="jagd__container inner-page-content-container">
+					<img class="jagd__image-1" src="./images/jagd-1.webp" alt="">
 					<p class="text">
-						Aus unseren Wäldern bieten wir Brennholz in verschiedensten Stärkeklassen und Holzarten ab Stock oder ab
-						Waldstraße an. Nehmen Sie hierzu einfach über das Anfrageformular weiter unten Kontakt mit uns auf. Der
-						zuständige Revierleiter wird sich dann bei Ihnen melden.
+						Leidenschaftlich jagen in attraktiver Landschaft und herrlichen Waldbildern
+						so lautet das Motto der Jagd im FF- Forstbetrieb. Um diesen Rahmen zu erhalten und weiter zu entwickeln,
+						tragen Sie als unserer Jagdpartner mit uns die Verantwortung! Denn in einem Wald, in dem sich die natürliche
+						Verjüngung ungehindert entwickeln kann, fühlt sich nicht nur das Wild, sondern auch der Jäger wohl!
 					</p>
 
 					<p class="text">
-						Bitte haben Sie Verständnis dafür, dass eine Abgabe nur an Motorsägenschein-Inhaber möglich ist.
+						Die Jagd wird im FF-Forstbetrieb im Rahmen von Begehscheinen vergeben. Dabei werden zwei Modelle angeboten:
+						der Flächenschein überträgt Ihnen ein hohes Maß an Verantwortung für einen Jagdbogen. Das Sorglospaket
+						bietet Ihnen ein leidenschaftliches Mitjagen ohne Verpflichtungen. In beiden Modellen gewähren wir Ihnen ein
+						Maximum an freier jagdlicher Entfaltung im Rahmen der gesetzlichen Grenzen und der waldbaulichen Zielsetzung
+						unseres Betriebes. Die strikte Beachtung dieser Rahmenbedingungen halten wir für
+						selbstverständlich, sie ist Grundlage unserer jagdlichen Partnerschaft und vertrauensvollen Zusammenarbeit.
+					</p>
+					<img class="jagd__image-2" src="./images/jagd-2.webp" width="380" height="421" alt="">
+					<p class="text">
+						Neben der Jagd im Rahmen von Begehscheinen werden in den Wintermonaten eine Vielzahl von Bewegungsjagden
+						durch den FF-Forstbetrieb organisiert. Informieren Sie sich dazu im Bereich der Rubrik
+						„Gesellschaftsjagden“.
 					</p>
 
-					<form action="./danke.html" class="brennholz-form-section__form">
-						<label class="brennholz-form-section__form-field form-field">
-							<span class="form-field__label">Aktuelles:</span>
-							<textarea class="form-field__input form-field__input--textarea" name="aktuelles"></textarea>
-						</label>
-
-						<div class="brennholz-form-section__block">
-							<div class="brennholz-form-section__block-fields">
-								<p class="text">
-									Derzeit ist aus den Regionen Meßkirch, Pfullendorf und Heiligenberg kein Brennholz beziehbar.
-								</p>
-								<label class="brennholz-form-section__form-field form-field">
-									<span class="form-field__label">Vorname:</span>
-									<input class="form-field__input" name="middle-name" type="text" value="Ekaterina" />
-								</label>
-
-								<label class="brennholz-form-section__form-field form-field">
-									<span class="form-field__label">Name:</span>
-									<input class="form-field__input" name="name" type="text" />
-								</label>
-
-								<label class="brennholz-form-section__form-field form-field">
-									<span class="form-field__label">Straße/Nr.:</span>
-									<input class="form-field__input" name="exterior" type="text" />
-								</label>
-
-								<label class="brennholz-form-section__form-field form-field">
-									<span class="form-field__label">Ort.:</span>
-									<input class="form-field__input" name="place" type="text" />
-								</label>
-
-								<label class="brennholz-form-section__form-field form-field">
-									<span class="form-field__label">Telefon/Mobil:</span>
-									<input class="form-field__input" name="phone" type="text" />
-								</label>
-
-								<label class="brennholz-form-section__form-field form-field">
-									<span class="form-field__label">E-Mailadresse:</span>
-									<input class="form-field__input" name="email" type="email" />
-								</label>
-
-								<label class="brennholz-form-section__form-field form-field">
-									<span class="sr-only">Sortiment</span>
-									<div class="form-select">
-										<select class="form-select__inner" name="range">
-											<option value="">Sortiment</option>
-											<option value="1">Sortiment 2</option>
-											<option value="1">Sortiment 3</option>
-											<option value="1">Sortiment 4</option>
-										</select>
-									</div>
-								</label>
-
-								<div class="brennholz-form-section__radio-group">
-									<div class="brennholz-form-section__radio-group-inner">
-										<label class="form-radio">
-											<input class="form-radio__input" type="radio" name="place" />
-											<span class="form-radio__box"></span>
-											<span class="form-radio__label">ab Stock</span>
-										</label>
-										<label class="form-radio">
-											<input class="form-radio__input" type="radio" name="place" />
-											<span class="form-radio__box"></span>
-											<span class="form-radio__label">ab Waldstraße</span>
-										</label>
-									</div>
-								</div>
-
-								<label class="brennholz-form-section__form-field form-field">
-									<span class="form-field__label">Kurz- oder Langholz:</span>
-									<input class="form-field__input" name="length" type="text" />
-								</label>
-
-								<label class="brennholz-form-section__form-field form-field">
-									<span class="form-field__label">Menge (RM für stehendes Holz/ab Stock; FM für liegendes Holz/ab
-										Waldstraße):</span>
-									<input class="form-field__input" name="count" type="text" />
-								</label>
-
-								<div class="brennholz-form-section__radio-group">
-									<span class="brennholz-form-section__radio-group-title">Kurz- oder Langholz:</span>
-									<div class="brennholz-form-section__radio-group-inner">
-										<label class="form-radio">
-											<input class="form-radio__input" type="radio" name="l1" />
-											<span class="form-radio__box"></span>
-											<span class="form-radio__label">ja</span>
-										</label>
-										<label class="form-radio">
-											<input class="form-radio__input" type="radio" name="l1" />
-											<span class="form-radio__box"></span>
-											<span class="form-radio__label">nein</span>
-										</label>
-									</div>
-								</div>
-
-								<div class="brennholz-form-section__radio-group brennholz-form-section__radio-group--title">
-									<span class="brennholz-form-section__radio-group-title">Schlepper mit/ohne Seilwinde :</span>
-									<div class="brennholz-form-section__radio-group-inner">
-										<label class="form-radio">
-											<input class="form-radio__input" type="radio" name="l2" />
-											<span class="form-radio__box"></span>
-											<span class="form-radio__label">min</span>
-										</label>
-										<label class="form-radio">
-											<input class="form-radio__input" type="radio" name="l2" />
-											<span class="form-radio__box"></span>
-											<span class="form-radio__label">ohne</span>
-										</label>
-									</div>
-								</div>
-
-								<label class="brennholz-form-section__form-field form-field">
-									<span class="form-field__label">Seillänge:</span>
-									<input class="form-field__input" name="rope-length" type="text" />
-								</label>
-
-								<label class="brennholz-form-section__form-field form-field">
-									<span class="form-field__label">Bemerkung (z.B. „Buche lang“, „Automatenware“ etc.):</span>
-									<input class="form-field__input" name="remark" type="text" />
-								</label>
-
-								<label class="form-check">
-									<input class="form-check__input" type="checkbox" name="l3" />
-									<span class="form-check__box"></span>
-									<span class="form-check__label">Ich habe die <a class="link link--italic" href="./index.html">UVV</a>
-										gelesen und werde sie einhalten!
-									</span>
-								</label>
-								<div class="brennholz-form-section__footer">
-									<button class="button" type="submit">Absenden</button>
-									<button class="button button--inactive" type="button">Absenden</button>
-								</div>
-							</div>
-
-							<div class="brennholz-form-section__block-images">
-								<img class="brennholz-form-section__image" width="668" height="592" src="./images/brennholz-1.jpg"
-									alt="" />
-								<img class="brennholz-form-section__image" width="668" height="506" src="./images/brennholz-2.jpg"
-									alt="" />
-							</div>
-						</div>
-					</form>
 				</div>
 			</div>
 		</div>
@@ -503,7 +370,6 @@
 			<p class="footer__copy">Impressum / Datenschutzerklärung © Forumedia</p>
 		</div>
 	</footer>
-
 	<script src="./core.js"></script>
 </body>
 

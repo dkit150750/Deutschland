@@ -43,13 +43,19 @@
 	min-height: 55px;
 	padding: 15px 25px;
 
-	transition: all 0.2s linear;
+	transition: all 0.1s linear;
 }
 
-.menu__item:hover,
-.menu__item--active,
+.menu__item--active {
+	background-color: hsl(153, 23%, 69%);
+}
+
 .menu__item--open {
-	background-color: hsl(154, 23%, 69%);
+	background-color: hsl(154, 24%, 87%);
+}
+
+.menu__item:hover {
+	background-color: hsl(155, 26%, 77%);
 }
 
 .menu__link {

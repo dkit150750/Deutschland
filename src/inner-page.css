@@ -1,24 +1,25 @@
-@import "./styles/inner-page/parallax.css";
-@import "./styles/inner-page/breadcrumbs.css";
+@import './styles/inner-page/parallax.css';
+@import './styles/inner-page/breadcrumbs.css';
+@import './styles/inner-page/inner-page-content.css';
 
-.main__content {
-  position: relative;
+.main__inner {
+	position: relative;
 }
 
 .main__zweig {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
 
-  display: block;
+	display: block;
 
-  max-width: 195px;
-  max-height: 100%;
+	max-width: 195px;
+	max-height: 100%;
 }
 
 @media (min-width: 1000px) {
-  .main__zweig {
-    max-width: 420px;
-  }
+	.main__zweig {
+		max-width: 420px;
+	}
 }

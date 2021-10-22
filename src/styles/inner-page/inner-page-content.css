@@ -1,0 +1,15 @@
+.inner-page-content {
+	padding: 0 0 40px;
+}
+
+@media (min-width: 768px) {
+	.inner-page-content {
+		padding: 30px 0 80px;
+	}
+}
+
+.inner-page-content-container {
+	max-width: var(--container-max-width);
+	margin: 0 auto;
+	padding: 0 var(--padding-x);
+}
