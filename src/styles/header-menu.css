@@ -7,8 +7,6 @@
 
 .page--home .menu {
 	justify-self: center;
-
-	margin-right: 0;
 }
 
 @media (min-width: 1370px) {
@@ -22,7 +20,6 @@
 
 	display: grid;
 	grid-auto-flow: column;
-	justify-content: space-between;
 	align-items: center;
 
 	margin: 0;

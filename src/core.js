@@ -93,7 +93,9 @@
 
 		run() {
 			this.menuItemButtons = [...this.menu.querySelectorAll('.mobile-menu__item-button')];
-			this.menuItemButtonsClose = [...this.menu.querySelectorAll('.mobile-menu__header-button')];
+			this.menuItemButtonsClose = [
+				...this.menu.querySelectorAll('.mobile-menu__list--sumbenu .mobile-menu__header-button'),
+			];
 			this.menuButtonClose = this.menu.querySelector('.mobile-menu__header-button');
 			this.body = document.querySelector('.page__body');
 

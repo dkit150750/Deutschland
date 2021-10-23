@@ -124,9 +124,15 @@
 
 	background-color: transparent;
 
+	outline: none;
+
 	cursor: pointer;
 
 	opacity: 1;
+}
+
+.home-swiper-pagination-bullet:focus-visible {
+	box-shadow: 0 0 0 3px var(--green-color-850), 0 0 0 5px hsl(0, 0%, 100%);
 }
 
 .home-swiper-pagination-bullet-active {
@@ -152,7 +158,13 @@
 
 	background-color: rgba(2, 2, 2, 0.322);
 
+	outline: none;
+
 	cursor: pointer;
+}
+
+.home-swiper__button:focus-visible {
+	box-shadow: 0 0 0 3px var(--green-color-850), 0 0 0 5px hsl(0, 0%, 100%);
 }
 
 @media (min-width: 640px) {
