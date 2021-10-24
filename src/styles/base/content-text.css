@@ -1,0 +1,22 @@
+.content-text {
+	margin: 0;
+
+	font-size: 13px;
+	line-height: 1.8;
+}
+
+.content-text + .content-text {
+	margin-top: 1.3em;
+}
+
+@media (min-width: 450px) {
+	.content-text {
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 768px) {
+	.content-text {
+		font-size: 19px;
+	}
+}
