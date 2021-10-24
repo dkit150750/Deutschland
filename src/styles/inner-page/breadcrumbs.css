@@ -23,6 +23,7 @@
 	position: relative;
 
 	display: grid;
+	grid-auto-columns: max-content;
 	grid-auto-flow: column;
 	grid-template-columns: max-content;
 	gap: 5px;
