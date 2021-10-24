@@ -76,9 +76,11 @@
 	scroll-behavior: smooth;
 }
 
-.mobile-menu__list-wrapper--open {
+.mobile-menu__list-wrapper--visible {
 	visibility: visible;
+}
 
+.mobile-menu__list-wrapper--open {
 	transform: translateX(0);
 }
 
@@ -229,9 +231,11 @@
 	transition: transform var(--open-duration) ease-in-out;
 }
 
-.mobile-menu__list--sumbenu-open {
+.mobile-menu__list--sumbenu-visible {
 	visibility: visible;
+}
 
+.mobile-menu__list--sumbenu-open {
 	transform: translateX(0);
 }
 
