@@ -8,6 +8,7 @@
 :root {
 	--padding-x: 20px;
 	--container-max-width: calc(1510px + var(--padding-x) + var(--padding-x));
+	--container-narrow-max-width: 1254px;
 	--page-color: hsl(0, 0%, 10%);
 	--page-backgound: hsl(0, 0%, 100%);
 	--green-color-600: hsl(154, 20%, 54%);

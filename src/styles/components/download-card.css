@@ -1,0 +1,73 @@
+.download-card {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 30px;
+}
+
+@media (min-width: 950px) {
+	.download-card {
+		display: grid;
+		grid-template-columns: min-content 1fr;
+		gap: 40px;
+		align-items: flex-start;
+	}
+}
+
+.download-card__image-wrapper {
+	width: 165px;
+
+	box-shadow: 0 0 10px 5px hsla(154, 56%, 24%, 0.24);
+}
+
+.download-card__image-inner {
+	position: relative;
+
+	padding-bottom: 140%;
+}
+
+.download-card__image {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	object-fit: contain;
+}
+
+.download-card__body {
+	max-width: 320px;
+}
+
+@media (min-width: 840px) {
+	.download-card__body {
+		max-width: 355px;
+	}
+}
+
+.download-card__title {
+	margin: 0;
+	margin-bottom: 0.5em;
+
+	font-weight: 600;
+	font-size: 15px;
+}
+
+@media (min-width: 500px) {
+	.download-card__title {
+		font-size: 18px;
+	}
+}
+
+.download-card__link {
+	font-size: 13px;
+}
+
+@media (min-width: 500px) {
+	.download-card__link {
+		font-size: 16px;
+	}
+}

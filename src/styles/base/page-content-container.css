@@ -1,17 +1,21 @@
-.inner-page-content-container {
+.page-content-container {
 	max-width: var(--container-max-width);
 	margin: 0 auto;
 	padding: 0 var(--padding-x);
 }
 
+.page-content-container--narrow {
+	max-width: var(--container-narrow-max-width);
+}
+
 @media (min-width: 1200px) {
-	.inner-page-content-container--padding-left {
+	.page-content-container--padding-left {
 		padding-left: 80px;
 	}
 }
 
 @media (min-width: 1500px) {
-	.inner-page-content-container--padding-left {
+	.page-content-container--padding-left {
 		padding-left: 120px;
 	}
 }

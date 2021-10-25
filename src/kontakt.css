@@ -1,0 +1,5 @@
+@import './styles/components/contantc-box.css';
+
+.page-content__contact-box {
+	margin-bottom: 50px;
+}

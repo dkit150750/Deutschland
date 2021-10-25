@@ -1,9 +1,9 @@
-.inner-page-content {
+.page-content {
 	padding: 0 0 40px;
 }
 
 @media (min-width: 768px) {
-	.inner-page-content {
+	.page-content {
 		padding: 30px 0 80px;
 	}
 }

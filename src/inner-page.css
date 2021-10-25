@@ -1,7 +1,7 @@
-@import './styles/inner-page/parallax.css';
-@import './styles/inner-page/breadcrumbs.css';
-@import './styles/inner-page/inner-page-content.css';
-@import './styles/inner-page/inner-page-content-container.css';
+@import './styles/base/page-content.css';
+@import './styles/base/page-content-container.css';
+@import './styles/components/parallax.css';
+@import './styles/components/breadcrumbs.css';
 
 .main__inner {
 	position: relative;

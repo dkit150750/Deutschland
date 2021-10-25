@@ -1,0 +1,19 @@
+.downloads-list {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 30px;
+}
+
+@media (min-width: 580px) {
+	.downloads-list {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 1840px) {
+	.downloads-list {
+		grid-template-columns: max-content max-content;
+		gap: 35px;
+		justify-content: space-between;
+	}
+}

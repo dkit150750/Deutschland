@@ -1,0 +1,35 @@
+.presse-list {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 40px 0;
+	justify-content: center;
+	justify-items: center;
+}
+
+@media (min-width: 520px) {
+	.presse-list {
+		grid-template-columns: 1fr 1fr;
+		gap: 40px 20px;
+	}
+}
+
+@media (min-width: 750px) {
+	.presse-list {
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 40px 20px;
+	}
+}
+
+@media (min-width: 750px) {
+	.presse-list {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		gap: 40px 20px;
+	}
+}
+
+.presse-list__image {
+	display: block;
+
+	height: auto;
+	max-width: 100%;
+}

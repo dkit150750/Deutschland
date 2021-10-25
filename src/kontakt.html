@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html class="page" lang="de">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<link rel="stylesheet" href="./core.css" />
+	<link rel="stylesheet" href="./inner-page.css" />
+	<link rel="stylesheet" href="./kontakt.css" />
+</head>
+
+<body class="page__body">
+	<header class="page__footer header">
+		<div class="header__container">
+			<a class="header__logo logo" href="./index.html">
+				<img class="logo__image" src="./images/logo.png" width="105" height="45" alt="Furstenberg Forst" />
+			</a>
+
+			<nav class="header__menu menu">
+				<ul class="menu__list">
+					<li class="menu__item">
+						<a class="menu__link" href="./holz.html">Holz</a>
+						<button class="menu__item-button" type="button" aria-expanded="false" aria-controls="#holz"
+							aria-label="untermenü öffnen">
+							<svg class="menu__item-button-icon" aria-hidden="true">
+								<use xlink:href="./images/sprite.svg#arrow-down"></use>
+							</svg>
+						</button>
+						<ul class="menu__list menu__list--sumbenu" id="#holz">
+							<li class="menu__item">
+								<a class="menu__link" href="./stammholz.html">Stammholz</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="./brennholz.html">brennholz</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="./jagd.html">Jagd</a>
+						<button class="menu__item-button" type="button" aria-expanded="false" aria-controls="#jagd"
+							aria-label="untermenü öffnen">
+							<svg class="menu__item-button-icon" aria-hidden="true">
+								<use xlink:href="./images/sprite.svg#arrow-down"></use>
+							</svg>
+						</button>
+						<ul class="menu__list menu__list--sumbenu" id="#jagd">
+							<li class="menu__item">
+								<a class="menu__link" href="./angebote.html">Angebote</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="./bewegungsjagden.html">Bewegungsjagden</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="./wild.html">Wild</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="./friedwald.html">FriedWald</a>
+						<button class="menu__item-button" type="button" aria-expanded="false" aria-controls="#friedwald"
+							aria-label="untermenü öffnen">
+							<svg class="menu__item-button-icon" aria-hidden="true">
+								<use xlink:href="./images/sprite.svg#arrow-down"></use>
+							</svg>
+						</button>
+						<ul class="menu__list menu__list--sumbenu" id="#friedwald">
+							<li class="menu__item">
+								<a class="menu__link" href="./elisenruhe.html">Elisenruhe</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="./heiligenberg.html">Heiligenberg</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="./friedenweiler.html">Friedenweiler</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="./lenzkirch-grunwald.html">Lenzkirch-Grunwald</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="./schenkenzell.html">Schenkenzell</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="./hegau.html">Hegau</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="./messkirch.html">Messkirch</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link menu__link--active" href="./bewerbungen.html">Bewerbungen</a>
+						<button class="menu__item-button" type="button" aria-expanded="false" aria-controls="#bewerbungen"
+							aria-label="untermenü öffnen">
+							<svg class="menu__item-button-icon" aria-hidden="true">
+								<use xlink:href="./images/sprite.svg#arrow-down"></use>
+							</svg>
+						</button>
+						<ul class="menu__list menu__list--sumbenu" id="#bewerbungen">
+							<li class="menu__item">
+								<a class="menu__link" href="./praktika.html">Praktika</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="./aktuelle-stellenangebote.html">Aktuelle Stellenangebote</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="./okopunkte.html">Ökopunkte</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="./service.html">Service</a>
+						<button class="menu__item-button" type="button" aria-expanded="false" aria-controls="#service"
+							aria-label="untermenü öffnen">
+							<svg class="menu__item-button-icon" aria-hidden="true">
+								<use xlink:href="./images/sprite.svg#arrow-down"></use>
+							</svg>
+						</button>
+						<ul class="menu__list menu__list--sumbenu" id="#service">
+							<li class="menu__item">
+								<a class="menu__link" href="./presse.html">Presse</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="./downloads.html">Downloads</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="./kontakt.html">Kontakt</a>
+					</li>
+				</ul>
+			</nav>
+
+			<nav class="header__mobile-menu mobile-menu">
+				<button class="mobile-menu__button" type="button" aria-expanded="false" aria-controls="mobile-menu-wrapper"
+					aria-label="Menü öffnen">
+					<span class="mobile-menu__button-line" aria-hidden="true"></span>
+					<span class="mobile-menu__button-line" aria-hidden="true"></span>
+					<span class="mobile-menu__button-line" aria-hidden="true"></span>
+				</button>
+				<div class="mobile-menu__list-wrapper" id="mobile-menu-wrapper">
+					<ul class="mobile-menu__list">
+						<li class="mobile-menu__header">
+							<span class="mobile-menu__header-title">Menu</span>
+							<button class="mobile-menu__header-button" type="button" aria-expanded="true"
+								aria-controls="mobile-menu-wrapper" aria-label="Menü schließen">
+								<svg class="mobile-menu__header-button-svg" aria-hidden="true">
+									<use xlink:href="./images/sprite.svg#arrow"></use>
+								</svg>
+							</button>
+						</li>
+						<li class="mobile-menu__item">
+							<a class="mobile-menu__link" href="./holz.html">Holz</a>
+							<button class="mobile-menu__item-button" type="button" aria-expanded="false" aria-controls="#holz-mobile"
+								aria-label="Untermenü öffnen">
+								<svg class="mobile-menu__item-button-arrow" aria-hidden="true">
+									<use xlink:href="./images/sprite.svg#arrow"></use>
+								</svg>
+							</button>
+							<ul class="mobile-menu__list mobile-menu__list--sumbenu" id="holz-mobile">
+								<li class="mobile-menu__header">
+									<span class="mobile-menu__header-title">Holz</span>
+									<button class="mobile-menu__header-button" aria-expanded="true" aria-controls="holz-mobile"
+										aria-label="Untermenü schließen">
+										<svg class="mobile-menu__header-button-svg" aria-hidden="true">
+											<use xlink:href="./images/sprite.svg#arrow"></use>
+										</svg>
+									</button>
+								</li>
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link" href="./stammholz.html">Stammholz</a>
+								</li>
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link" href="./brennholz.html">brennholz</a>
+								</li>
+							</ul>
+						</li>
+						<li class="mobile-menu__item">
+							<a class="mobile-menu__link" href="./jagd.html">Jagd</a>
+							<button class="mobile-menu__item-button" type="button" aria-expanded="false" aria-controls="#jagd-mobile"
+								aria-label="Untermenü öffnen">
+								<svg class="mobile-menu__item-button-arrow" aria-hidden="true">
+									<use xlink:href="./images/sprite.svg#arrow"></use>
+								</svg>
+							</button>
+							<ul class="mobile-menu__list mobile-menu__list--sumbenu" id="jagd-mobile">
+								<li class="mobile-menu__header">
+									<span class="mobile-menu__header-title">Jagd</span>
+									<button class="mobile-menu__header-button" aria-expanded="true" aria-controls="jagd-mobile"
+										aria-label="Untermenü schließen">
+										<svg class="mobile-menu__header-button-svg" aria-hidden="true">
+											<use xlink:href="./images/sprite.svg#arrow"></use>
+										</svg>
+									</button>
+								</li>
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link" href="./angebote.html">Angebote</a>
+								</li>
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link" href="./bewegungsjagden.html">Bewegungsjagden</a>
+								</li>
+							</ul>
+						</li>
+						<li class="mobile-menu__item">
+							<a class="mobile-menu__link" href="./wild.html">Wild</a>
+						</li>
+						<li class="mobile-menu__item">
+							<a class="mobile-menu__link" href="./friedwald.html">FriedWald</a>
+							<button class="mobile-menu__item-button" type="button" aria-expanded="false"
+								aria-controls="#friedwald-mobile" aria-label="Untermenü öffnen">
+								<svg class="mobile-menu__item-button-arrow" aria-hidden="true">
+									<use xlink:href="./images/sprite.svg#arrow"></use>
+								</svg>
+							</button>
+							<ul class="mobile-menu__list mobile-menu__list--sumbenu" id="friedwald-mobile">
+								<li class="mobile-menu__header">
+									<span class="mobile-menu__header-title">FriedWald</span>
+									<button class="mobile-menu__header-button" aria-expanded="true" aria-controls="friedwald-mobile"
+										aria-label="Untermenü schließen">
+										<svg class="mobile-menu__header-button-svg" aria-hidden="true">
+											<use xlink:href="./images/sprite.svg#arrow"></use>
+										</svg>
+									</button>
+								</li>
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link" href="./elisenruhe.html">Elisenruhe</a>
+								</li>
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link" href="./heiligenberg.html">Heiligenberg</a>
+								</li>
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link" href="./friedenweiler.html">Friedenweiler</a>
+								</li>
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link" href="./lenzkirch-grunwald.html">Lenzkirch-Grunwald</a>
+								</li>
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link" href="./schenkenzell.html">Schenkenzell</a>
+								</li>
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link" href="./hegau.html">Hegau</a>
+								</li>
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link" href="./messkirch.html">Messkirch</a>
+								</li>
+							</ul>
+						</li>
+						<li class="mobile-menu__item">
+							<a class="mobile-menu__link" href="./bewerbungen.html">Bewerbungen</a>
+							<button class="mobile-menu__item-button" type="button" aria-expanded="false"
+								aria-controls="#bewerbungen-mobile" aria-label="Untermenü öffnen">
+								<svg class="mobile-menu__item-button-arrow" aria-hidden="true">
+									<use xlink:href="./images/sprite.svg#arrow"></use>
+								</svg>
+							</button>
+							<ul class="mobile-menu__list mobile-menu__list--sumbenu" id="bewerbungen-mobile">
+								<li class="mobile-menu__header">
+									<span class="mobile-menu__header-title">Bewerbungen</span>
+									<button class="mobile-menu__header-button" aria-expanded="true" aria-controls="bewerbungen-mobile"
+										aria-label="Untermenü schließen">
+										<svg class="mobile-menu__header-button-svg" aria-hidden="true">
+											<use xlink:href="./images/sprite.svg#arrow"></use>
+										</svg>
+									</button>
+								</li>
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link" href="./praktika.html">Praktika</a>
+								</li>
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link" href="./aktuelle-stellenangebote.html">Aktuelle Stellenangebote</a>
+								</li>
+							</ul>
+						</li>
+						<li class="mobile-menu__item">
+							<a class="mobile-menu__link" href="./okopunkte.html">Ökopunkte</a>
+						</li>
+						<li class="mobile-menu__item">
+							<a class="mobile-menu__link" href="./service.html">Service</a>
+							<button class="mobile-menu__item-button" type="button" aria-expanded="false"
+								aria-controls="#service-mobile" aria-label="Untermenü öffnen">
+								<svg class="mobile-menu__item-button-arrow" aria-hidden="true">
+									<use xlink:href="./images/sprite.svg#arrow"></use>
+								</svg>
+							</button>
+							<ul class="mobile-menu__list mobile-menu__list--sumbenu" id="service-mobile">
+								<li class="mobile-menu__header">
+									<span class="mobile-menu__header-title">Service</span>
+									<button class="mobile-menu__header-button" aria-expanded="true" aria-controls="service-mobile"
+										aria-label="Untermenü schließen">
+										<svg class="mobile-menu__header-button-svg" aria-hidden="true">
+											<use xlink:href="./images/sprite.svg#arrow"></use>
+										</svg>
+									</button>
+								</li>
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link" href="./presse.html">Presse</a>
+								</li>
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link" href="./downloads.html">Downloads</a>
+								</li>
+							</ul>
+						</li>
+						<li class="mobile-menu__item">
+							<a class="mobile-menu__link" href="./kontakt.html">Kontakt</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main class="page__main main">
+		<div class="parallax"></div>
+
+		<div class="main__inner">
+			<img class="main__zweig" src="./images/zweig-1.webp" alt="" />
+			<div class="breadcrumbs">
+				<div class="breadcrumbs__container">
+					<ol class="breadcrumbs__list">
+						<li class="breadcrumbs__item">
+							<a class="breadcrumbs__link" href="./index.html">Home</a>
+						</li>
+						<li class="breadcrumbs__item">
+							<a class="breadcrumbs__link" href="./service.html">Service</a>
+						</li>
+						<li class="breadcrumbs__item">
+							<span class="breadcrumbs__link">Presse</span>
+						</li>
+					</ol>
+				</div>
+			</div>
+			<div class="page-content">
+				<div class="page-content-container page-content-container--narrow">
+					<h1 class="content-title">Kontakt</h1>
+					<div class="contact-box page-content__contact-box">
+						<div class="contact-box__info">
+							<p class="contact-box__info-text">
+								Forstbetrieb Fürst zu Fürstenberg GmbH & Co. KG
+								Betriebsleitung
+								Josefstraße 11
+								78166 Donaueschingen
+							</p>
+
+							<p class="contact-box__info-text">
+								Betriebsleiter: Dr. Jens Borchers
+								Steuer-Nr.: 04072/00018
+								Umsatzsteuer-ID: DE223654145
+								Privatforstbetrieb im Eigentum S. D. Erbprinzen Christian zu Fürstenberg
+							</p>
+						</div>
+
+						<div class="contact-box__contacts">
+							<p class="contact-box__contact">Tel. <a class="contact-box__link contact-box__link--tel"
+									href="tel:+0771 – 229677 425">0771 – 229677 425</a></p>
+							<p class="contact-box__contact">Fax. <a class="contact-box__link contact-box__link--tel"
+									href="fax:+0771 – 229677 425">0771 – 229677 425</a></p>
+							<p class="contact-box__contact">email <a class="contact-box__link"
+									href="mailto:kontakt@ff-forst.de">kontakt@ff-forst.de</a></p>
+						</div>
+					</div>
+
+					<div class="content-text-column">
+						<p class="content-text">
+							Die Informationen auf diesen Internetseiten werden vom Forstbetrieb Fürst zu Fürstenberg regelmäßig
+							geprüft und aktualisiert. Trotz aller Sorgfalt können sich Fehler eingeschlichen haben oder Angaben
+							zwischenzeitlich verändert haben.
+						</p>
+
+						<p class="content-text">
+							Eine Haftung oder Garantie für die Aktualität, Richtigkeit und Vollständigkeit der zur Verfügung
+							gestellten Informationen kann daher nicht übernommen werden. Gleiches gilt auch für alle Internetseiten,
+							auf die mittels eines Hyperlinks verwiesen wird. Für den Inhalt der Internetseiten, die mit einer solchen
+							Verbindung erreicht werden, ist der Forstbetrieb Fürst zu Fürstenberg nicht verantwortlich. Der
+							Forstbetrieb Fürst zu Fürstenberg schließt jegliche Haftung oder Gewährleistung in Bezug auf die mittels
+							eines Hyperlinks geöffneten Internetseiten aus. Der Forstbetrieb Fürst zu Fürstenberg kann daher weder
+							direkt noch indirekt für Schäden oder Verluste verantwortlich gemacht werden, die aus oder im Zusammenhang
+							mit der Benutzung eines Inhalts oder im Vertrauen auf einen solchen Inhalt oder auf Grund von Waren oder
+							Dienstleistungen entstehen oder entstanden sind, die über solche Sites oder Quellen bezogen wurden.
+						</p>
+
+						<p class="content-text">
+							Des Weiteren behält sich der Forstbetrieb Fürst zu Fürstenberg das Recht vor, an den bereitgestellten
+							Informationen Änderungen oder Ergänzungen vorzunehmen. Inhalt und Struktur der Forstbetrieb Fürst zu
+							Fürstenberg-Internetseiten sind urheberrechtlich geschützt. Informationen oder Daten (Text-, Bild-,
+							Grafikdateien) unserer Internetseiten dürfen ohne vorherige schriftliche Zustimmung des Forstbetrieb Fürst
+							zu Fürstenberg weder in irgendeiner Form verwendet noch reproduziert werden, auch nicht auszugsweise.
+						</p>
+
+						<p class="content-text">
+							Copyright für Bildmaterial: FF-Forst/Borchers.
+							Sämtliche Tieraufnahmen stammen aus dem FF-Forstbetrieb: Das Copyright liegt bei Erich Marek.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="page__footer footer">
+		<div class="footer__top-container">
+			<img class="footer__logo" src="./images/footer-logo.webp" width="280" height="48" alt="Furstenberg Forst" />
+		</div>
+		<div class="footer__bottom-container">
+			<p class="footer__copy">Impressum / Datenschutzerklärung © Forumedia</p>
+		</div>
+	</footer>
+	<script src="./core.js"></script>
+</body>
+
+</html>
