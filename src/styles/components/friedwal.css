@@ -1,0 +1,32 @@
+@media (min-width: 1200px) {
+	.friedwal {
+		column-count: 2;
+		column-gap: 40px;
+	}
+}
+
+.friedwal__img {
+	display: block;
+
+	width: 100%;
+	height: auto;
+	max-width: 600px;
+	margin: 40px auto;
+}
+
+@media (min-width: 1200px) {
+	.friedwal__img {
+		margin-top: 200px;
+		margin-right: auto;
+		margin-left: 0;
+	}
+}
+
+.friedwal__title {
+	margin-top: 1.6em;
+	margin-bottom: 0.8em;
+}
+
+.friedwal__text-columns {
+	margin-top: 1.3em;
+}
