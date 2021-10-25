@@ -68,22 +68,6 @@
 	grid-column: 2 /4;
 }
 
-.home-about__subtitle {
-	margin: 0;
-	margin-bottom: 10px;
-
-	color: var(--heading-color);
-	font-size: 15px;
-}
-
-@media (min-width: 768px) {
-	.home-about__subtitle {
-		margin-bottom: 20px;
-
-		font-size: 25px;
-	}
-}
-
 .home-about__title {
 	margin: 0;
 	margin-bottom: 15px;

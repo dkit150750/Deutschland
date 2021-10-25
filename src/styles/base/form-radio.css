@@ -62,9 +62,9 @@
 
 	border-radius: var(--size);
 
-	background-color: var(--green-color-850);
+	background-color: var(--color-green-850);
 }
 
 .form-radio__input:focus + .form-radio__box {
-	box-shadow: 0 0 0 2px var(--green-color-850);
+	box-shadow: 0 0 0 2px var(--color-green-850);
 }

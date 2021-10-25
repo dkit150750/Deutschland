@@ -63,5 +63,5 @@
 }
 
 .breadcrumbs__item:last-child > .breadcrumbs__link {
-	color: var(--green-color-850);
+	color: var(--color-green-850);
 }

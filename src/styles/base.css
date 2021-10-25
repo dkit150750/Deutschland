@@ -11,14 +11,15 @@
 	--container-narrow-max-width: 1254px;
 	--page-color: hsl(0, 0%, 10%);
 	--page-backgound: hsl(0, 0%, 100%);
-	--green-color-600: hsl(154, 20%, 54%);
-	--green-color-650: hsl(109, 21%, 45%);
-	--green-color-700: hsl(154, 56%, 24%);
-	--green-color-800: hsl(153, 74%, 16%);
-	--green-color-850: hsl(141, 100%, 15%);
-	--link-color: var(--green-color-650);
-	--mobile-menu-button-color: var(--green-color-850);
-	--heading-color: var(--green-color-800);
+	--color-white: hsl(0, 0%, 100%);
+	--color-green-600: hsl(154, 20%, 54%);
+	--color-green-650: hsl(109, 21%, 45%);
+	--color-green-700: hsl(154, 56%, 24%);
+	--color-green-800: hsl(153, 74%, 16%);
+	--color-green-850: hsl(141, 100%, 15%);
+	--link-color: var(--color-green-650);
+	--mobile-menu-button-color: var(--color-green-850);
+	--heading-color: var(--color-green-800);
 }
 
 .sr-only {
@@ -47,5 +48,5 @@ button:focus-visible,
 textarea:focus-visible,
 select:focus-visible,
 input:focus-visible {
-	box-shadow: 0 0 0 2px var(--green-color-850);
+	box-shadow: 0 0 0 2px var(--color-green-850);
 }

@@ -132,7 +132,7 @@
 }
 
 .home-swiper-pagination-bullet:focus-visible {
-	box-shadow: 0 0 0 3px var(--green-color-850), 0 0 0 5px hsl(0, 0%, 100%);
+	box-shadow: 0 0 0 3px var(--color-green-850), 0 0 0 5px hsl(0, 0%, 100%);
 }
 
 .home-swiper-pagination-bullet-active {
@@ -164,7 +164,7 @@
 }
 
 .home-swiper__button:focus-visible {
-	box-shadow: 0 0 0 3px var(--green-color-850), 0 0 0 5px hsl(0, 0%, 100%);
+	box-shadow: 0 0 0 3px var(--color-green-850), 0 0 0 5px hsl(0, 0%, 100%);
 }
 
 @media (min-width: 640px) {

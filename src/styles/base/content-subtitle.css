@@ -1,0 +1,13 @@
+.content-subtitle {
+	margin: 0;
+	margin-bottom: 0.65em;
+
+	color: var(--heading-color);
+	font-size: 15px;
+}
+
+@media (min-width: 768px) {
+	.content-subtitle {
+		font-size: 25px;
+	}
+}

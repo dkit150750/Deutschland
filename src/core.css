@@ -2,14 +2,16 @@
 @import './styles/base.css';
 
 /* base component */
+@import './styles/base/content-subtitle.css';
 @import './styles/base/content-title.css';
-@import './styles/base/button.css';
 @import './styles/base/content-text.css';
 @import './styles/base/link.css';
+
+/* @import './styles/base/button.css';
 @import './styles/base/form-field.css';
 @import './styles/base/form-radio.css';
 @import './styles/base/form-check.css';
-@import './styles/base/table.css';
+@import './styles/base/table.css'; */
 
 /* base page */
 @import './styles/page.css';
