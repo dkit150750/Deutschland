@@ -1,0 +1,8 @@
+.page-content a {
+	--link-color: var(--color-green-650);
+
+	color: var(--link-color);
+	font-weight: 600;
+	text-decoration: none;
+	word-break: break-all;
+}

@@ -29,20 +29,20 @@
 	}
 }
 
-.wild .content-title {
+.wild h2 {
 	margin-top: 0.8em;
 	margin-bottom: 0.6em;
 }
 
 @media (min-width: 450px) {
-	.wild .content-title {
+	.wild h2 {
 		margin-top: 1.5em;
 		margin-bottom: 1.1em;
 	}
 }
 
 @media (min-width: 768px) {
-	.wild .content-title {
+	.wild h2 {
 		margin-top: 2.2em;
 		margin-bottom: 1.2em;
 	}
@@ -88,17 +88,17 @@
 }
 
 @media (max-width: 1139px) {
-	.wild__table {
+	.wild table {
 		max-width: 500px;
 	}
 }
 
-.wild__table + .wild__table {
+.wild table + table {
 	margin-top: 40px;
 }
 
 @media (min-width: 1300px) {
-	.wild__table + .wild__table {
+	.wild table + table {
 		margin-top: 70px;
 	}
 }

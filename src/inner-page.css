@@ -1,5 +1,11 @@
-@import './styles/base/page-content.css';
-@import './styles/base/page-content-container.css';
+@import './styles/inner-page/base/title.css';
+@import './styles/inner-page/base/text.css';
+@import './styles/inner-page/base/link.css';
+@import './styles/inner-page/base/table.css';
+
+@import './styles/components/page-content.css';
+@import './styles/components/page-content-container.css';
+@import './styles/components/content-article.css';
 @import './styles/components/parallax.css';
 @import './styles/components/breadcrumbs.css';
 

@@ -4,7 +4,7 @@
 	overflow: hidden;
 }
 
-.jagd .content-text {
+.jagd p {
 	max-width: 785px;
 }
 
@@ -41,10 +41,6 @@
 	.jagd__image-1 {
 		max-width: 990px;
 	}
-}
-
-.jagd .text {
-	max-width: 780px;
 }
 
 .jagd__image-2 {

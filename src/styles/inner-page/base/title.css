@@ -1,0 +1,24 @@
+.page-content h1,
+.page-content h2 {
+	--heading-color: var(--color-green-800);
+
+	margin: 0 0 0.4em;
+
+	color: var(--heading-color);
+	font-size: 30px;
+	line-height: 1.3;
+}
+
+@media (min-width: 450px) {
+	.page-content h1,
+	.page-content h2 {
+		font-size: 35px;
+	}
+}
+
+@media (min-width: 768px) {
+	.page-content h1,
+	.page-content h2 {
+		font-size: 42px;
+	}
+}

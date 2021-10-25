@@ -1,42 +1,42 @@
-.content-text {
+.page-content p {
 	margin: 0;
 
 	font-size: 14px;
 	line-height: 1.8;
 }
 
-.content-text + .content-text {
+.page-content p + p {
 	margin-top: 1.3em;
 }
 
 @media (min-width: 450px) {
-	.content-text {
+	.page-content p {
 		font-size: 15px;
 	}
 }
 
 @media (min-width: 768px) {
-	.content-text {
+	.page-content p {
 		font-size: 19px;
 	}
 }
 
-.content-text--bold {
+.page-content .content-text--bold {
 	font-weight: 600;
 }
 
-.content-text--big {
+.page-content .content-text--big {
 	font-size: 17px;
 }
 
 @media (min-width: 450px) {
-	.content-text--big {
+	.page-content .content-text--big {
 		font-size: 20px;
 	}
 }
 
 @media (min-width: 768px) {
-	.content-text--big {
+	.page-content .content-text--big {
 		font-size: 24px;
 	}
 }

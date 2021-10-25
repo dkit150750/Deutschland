@@ -5,7 +5,7 @@
 	}
 }
 
-.friedwal__img {
+.friedwal img {
 	display: block;
 
 	width: 100%;
@@ -15,18 +15,14 @@
 }
 
 @media (min-width: 1200px) {
-	.friedwal__img {
+	.friedwal img {
+		max-width: 100%;
 		margin-top: 200px;
-		margin-right: auto;
-		margin-left: 0;
 	}
 }
 
-.friedwal__title {
+.friedwal h1,
+.friedwal h2 {
 	margin-top: 1.6em;
 	margin-bottom: 0.8em;
-}
-
-.friedwal__text-columns {
-	margin-top: 1.3em;
 }

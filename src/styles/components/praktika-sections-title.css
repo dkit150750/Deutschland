@@ -1,0 +1,9 @@
+.praktika-sections-title {
+	margin-top: 50px;
+}
+
+@media (min-width: 500px) {
+	.praktika-sections-title {
+		margin-top: 60px;
+	}
+}
