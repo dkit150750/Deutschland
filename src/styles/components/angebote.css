@@ -1,0 +1,44 @@
+@media (min-width: 850px) {
+	.angebote {
+		column-count: 2;
+		column-gap: 30px;
+	}
+}
+
+.angebote__article {
+	padding: 50px;
+}
+
+.angebote__article:first-child {
+	padding-top: 0;
+}
+
+@media (min-width: 1400px) {
+	.angebote__article {
+		padding: 100px;
+	}
+}
+
+.angebote__image {
+	display: block;
+
+	width: 100%;
+	height: auto;
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+.angebote__image + .angebote__image {
+	margin-top: 30px;
+}
+
+@media (min-width: 850px) {
+	.angebote__image {
+		max-width: 100%;
+	}
+
+	.angebote__image + .angebote__image {
+		max-width: 100%;
+		margin-top: 50px;
+	}
+}

@@ -5,6 +5,8 @@
 }
 
 .table caption {
+	--heading-color: var(--color-green-800);
+
 	margin: 0 0 0.4em;
 
 	color: var(--heading-color);
@@ -16,6 +18,16 @@
 
 @media (min-width: 450px) {
 	.table caption {
+		margin: 0 0 0.8em;
+
+		font-size: 22px;
+	}
+}
+
+@media (min-width: 768px) {
+	.table caption {
+		margin: 0 0 1em;
+
 		font-size: 22px;
 	}
 }

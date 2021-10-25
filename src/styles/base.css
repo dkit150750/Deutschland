@@ -17,9 +17,6 @@
 	--color-green-700: hsl(154, 56%, 24%);
 	--color-green-800: hsl(153, 74%, 16%);
 	--color-green-850: hsl(141, 100%, 15%);
-	--link-color: var(--color-green-650);
-	--mobile-menu-button-color: var(--color-green-850);
-	--heading-color: var(--color-green-800);
 }
 
 .sr-only {

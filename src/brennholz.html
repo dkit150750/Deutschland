@@ -20,7 +20,7 @@
 
 			<nav class="header__menu menu">
 				<ul class="menu__list">
-					<li class="menu__item">
+					<li class="menu__item menu__item--active">
 						<a class="menu__link" href="./holz.html">Holz</a>
 						<button class="menu__item-button" type="button" aria-expanded="false" aria-controls="#holz"
 							aria-label="untermenü öffnen">
@@ -33,7 +33,7 @@
 								<a class="menu__link" href="./stammholz.html">Stammholz</a>
 							</li>
 							<li class="menu__item">
-								<a class="menu__link" href="./brennholz.html">brennholz</a>
+								<a class="menu__link menu__link--active" href="./brennholz.html">brennholz</a>
 							</li>
 						</ul>
 					</li>
@@ -151,7 +151,7 @@
 							</button>
 						</li>
 						<li class="mobile-menu__item">
-							<a class="mobile-menu__link" href="./holz.html">Holz</a>
+							<a class="mobile-menu__link mobile-menu__link--active" href="./holz.html">Holz</a>
 							<button class="mobile-menu__item-button" type="button" aria-expanded="false" aria-controls="#holz-mobile"
 								aria-label="Untermenü öffnen">
 								<svg class="mobile-menu__item-button-arrow" aria-hidden="true">
@@ -172,7 +172,7 @@
 									<a class="mobile-menu__link" href="./stammholz.html">Stammholz</a>
 								</li>
 								<li class="mobile-menu__item">
-									<a class="mobile-menu__link" href="./brennholz.html">brennholz</a>
+									<a class="mobile-menu__link mobile-menu__link--active" href="./brennholz.html">brennholz</a>
 								</li>
 							</ul>
 						</li>
@@ -330,8 +330,8 @@
 				</div>
 			</div>
 
-			<div class="brennholz-form-section page-content">
-				<div class="brennholz-form-section__container page-content-container">
+			<div class="page-content">
+				<div class="page-content-container">
 					<h1 class="content-title">Brennholz</h1>
 					<p class="content-text">
 						Aus unseren Wäldern bieten wir Brennholz in verschiedensten Stärkeklassen und Holzarten ab Stock oder ab
@@ -343,48 +343,48 @@
 						Bitte haben Sie Verständnis dafür, dass eine Abgabe nur an Motorsägenschein-Inhaber möglich ist.
 					</p>
 
-					<form action="./danke.html" class="brennholz-form-section__form">
-						<label class="brennholz-form-section__form-field form-field">
+					<form action="./danke.html" class="brennholz-form">
+						<label class="brennholz-form__form-field form-field">
 							<span class="form-field__label">Aktuelles:</span>
 							<textarea class="form-field__input form-field__input--textarea" name="aktuelles"></textarea>
 						</label>
 
-						<div class="brennholz-form-section__block">
-							<div class="brennholz-form-section__block-fields">
+						<div class="brennholz-form__block">
+							<div class="brennholz-form__block-fields">
 								<p class="content-text">
 									Derzeit ist aus den Regionen Meßkirch, Pfullendorf und Heiligenberg kein Brennholz beziehbar.
 								</p>
-								<label class="brennholz-form-section__form-field form-field">
+								<label class="brennholz-form__form-field form-field">
 									<span class="form-field__label">Vorname:</span>
 									<input class="form-field__input" name="middle-name" type="text" value="Ekaterina" />
 								</label>
 
-								<label class="brennholz-form-section__form-field form-field">
+								<label class="brennholz-form__form-field form-field">
 									<span class="form-field__label">Name:</span>
 									<input class="form-field__input" name="name" type="text" />
 								</label>
 
-								<label class="brennholz-form-section__form-field form-field">
+								<label class="brennholz-form__form-field form-field">
 									<span class="form-field__label">Straße/Nr.:</span>
 									<input class="form-field__input" name="exterior" type="text" />
 								</label>
 
-								<label class="brennholz-form-section__form-field form-field">
+								<label class="brennholz-form__form-field form-field">
 									<span class="form-field__label">Ort.:</span>
 									<input class="form-field__input" name="place" type="text" />
 								</label>
 
-								<label class="brennholz-form-section__form-field form-field">
+								<label class="brennholz-form__form-field form-field">
 									<span class="form-field__label">Telefon/Mobil:</span>
 									<input class="form-field__input" name="phone" type="text" />
 								</label>
 
-								<label class="brennholz-form-section__form-field form-field">
+								<label class="brennholz-form__form-field form-field">
 									<span class="form-field__label">E-Mailadresse:</span>
 									<input class="form-field__input" name="email" type="email" />
 								</label>
 
-								<label class="brennholz-form-section__form-field form-field">
+								<label class="brennholz-form__form-field form-field">
 									<span class="sr-only">Sortiment</span>
 									<div class="form-select">
 										<select class="form-select__inner" name="range">
@@ -396,8 +396,8 @@
 									</div>
 								</label>
 
-								<div class="brennholz-form-section__radio-group">
-									<div class="brennholz-form-section__radio-group-inner">
+								<div class="brennholz-form__radio-group">
+									<div class="brennholz-form__radio-group-inner">
 										<label class="form-radio">
 											<input class="form-radio__input" type="radio" name="place" />
 											<span class="form-radio__box"></span>
@@ -411,20 +411,20 @@
 									</div>
 								</div>
 
-								<label class="brennholz-form-section__form-field form-field">
+								<label class="brennholz-form__form-field form-field">
 									<span class="form-field__label">Kurz- oder Langholz:</span>
 									<input class="form-field__input" name="length" type="text" />
 								</label>
 
-								<label class="brennholz-form-section__form-field form-field">
+								<label class="brennholz-form__form-field form-field">
 									<span class="form-field__label">Menge (RM für stehendes Holz/ab Stock; FM für liegendes Holz/ab
 										Waldstraße):</span>
 									<input class="form-field__input" name="count" type="text" />
 								</label>
 
-								<div class="brennholz-form-section__radio-group">
-									<span class="brennholz-form-section__radio-group-title">Kurz- oder Langholz:</span>
-									<div class="brennholz-form-section__radio-group-inner">
+								<div class="brennholz-form__radio-group">
+									<span class="brennholz-form__radio-group-title">Kurz- oder Langholz:</span>
+									<div class="brennholz-form__radio-group-inner">
 										<label class="form-radio">
 											<input class="form-radio__input" type="radio" name="l1" />
 											<span class="form-radio__box"></span>
@@ -438,9 +438,9 @@
 									</div>
 								</div>
 
-								<div class="brennholz-form-section__radio-group brennholz-form-section__radio-group--title">
-									<span class="brennholz-form-section__radio-group-title">Schlepper mit/ohne Seilwinde :</span>
-									<div class="brennholz-form-section__radio-group-inner">
+								<div class="brennholz-form__radio-group brennholz-form__radio-group--title">
+									<span class="brennholz-form__radio-group-title">Schlepper mit/ohne Seilwinde :</span>
+									<div class="brennholz-form__radio-group-inner">
 										<label class="form-radio">
 											<input class="form-radio__input" type="radio" name="l2" />
 											<span class="form-radio__box"></span>
@@ -454,12 +454,12 @@
 									</div>
 								</div>
 
-								<label class="brennholz-form-section__form-field form-field">
+								<label class="brennholz-form__form-field form-field">
 									<span class="form-field__label">Seillänge:</span>
 									<input class="form-field__input" name="rope-length" type="text" />
 								</label>
 
-								<label class="brennholz-form-section__form-field form-field">
+								<label class="brennholz-form__form-field form-field">
 									<span class="form-field__label">Bemerkung (z.B. „Buche lang“, „Automatenware“ etc.):</span>
 									<input class="form-field__input" name="remark" type="text" />
 								</label>
@@ -467,20 +467,20 @@
 								<label class="form-check">
 									<input class="form-check__input" type="checkbox" name="l3" />
 									<span class="form-check__box"></span>
-									<span class="form-check__label">Ich habe die <a class="link link--italic" href="./index.html">UVV</a>
+									<span class="form-check__label">Ich habe die <a class="link" href="./index.html">UVV</a>
 										gelesen und werde sie einhalten!
 									</span>
 								</label>
-								<div class="brennholz-form-section__footer">
+								<div class="brennholz-form__footer">
 									<button class="button" type="submit">Absenden</button>
 									<button class="button button--inactive" type="button">Absenden</button>
 								</div>
 							</div>
 
-							<div class="brennholz-form-section__block-images">
-								<img class="brennholz-form-section__image" width="668" height="592" src="./images/brennholz-1.jpg"
+							<div class="brennholz-form__block-images">
+								<img class="brennholz-form__image" width="668" height="592" src="./images/brennholz-1.jpg"
 									alt="" />
-								<img class="brennholz-form-section__image" width="668" height="506" src="./images/brennholz-2.jpg"
+								<img class="brennholz-form__image" width="668" height="506" src="./images/brennholz-2.jpg"
 									alt="" />
 							</div>
 						</div>
@@ -491,7 +491,7 @@
 	</main>
 	<footer class="page__footer footer">
 		<div class="footer__top-container">
-			<img class="footer__logo" src="./images/footer-logo.webp" width="280" height="48" alt="Furstenberg Forst" />
+			<img class="footer__logo" src="./images/footer-logo.webp" width="428" height="73" alt="Furstenberg Forst" />
 		</div>
 		<div class="footer__bottom-container">
 			<p class="footer__copy">Impressum / Datenschutzerklärung © Forumedia</p>

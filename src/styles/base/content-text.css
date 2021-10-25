@@ -1,7 +1,7 @@
 .content-text {
 	margin: 0;
 
-	font-size: 13px;
+	font-size: 14px;
 	line-height: 1.8;
 }
 
@@ -18,5 +18,25 @@
 @media (min-width: 768px) {
 	.content-text {
 		font-size: 19px;
+	}
+}
+
+.content-text--bold {
+	font-weight: 600;
+}
+
+.content-text--big {
+	font-size: 17px;
+}
+
+@media (min-width: 450px) {
+	.content-text {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 768px) {
+	.content-text--big {
+		font-size: 24px;
 	}
 }

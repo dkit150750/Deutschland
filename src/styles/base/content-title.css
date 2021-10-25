@@ -1,4 +1,6 @@
 .content-title {
+	--heading-color: var(--color-green-800);
+
 	margin: 0 0 0.4em;
 
 	color: var(--heading-color);

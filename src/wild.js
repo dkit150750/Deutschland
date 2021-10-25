@@ -1,13 +1,13 @@
 /* eslint-disable no-undef */
 {
-	const swiperWrapper = document.querySelector('.swiper-wrapper');
+	const swiperWrapper = document.querySelector('.wild-swiper .swiper-wrapper');
 	const slides = [...swiperWrapper.querySelectorAll('.swiper-slide')];
 
 	function createColumns() {
 		const column1 = document.createElement('div');
 		const column2 = document.createElement('div');
-		column1.classList.add('wild__images-column');
-		column2.classList.add('wild__images-column');
+		column1.classList.add('wild-swiper__images-column');
+		column2.classList.add('wild-swiper__images-column');
 		column1.append(...slides.slice(0, 4));
 		column2.append(...slides.slice(4));
 		swiperWrapper.append(column1);
@@ -44,7 +44,7 @@
 			return;
 		}
 
-		const columns = [...swiperWrapper.querySelectorAll('.wild__images-column')];
+		const columns = [...swiperWrapper.querySelectorAll('.wild-swiper__images-column')];
 		if (columns.length > 0) {
 			removeColumns(columns);
 		}

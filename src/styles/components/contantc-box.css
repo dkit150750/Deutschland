@@ -58,13 +58,3 @@
 .contact-box__contact + .contact-box__contact {
 	margin-top: 0.5em;
 }
-
-.contact-box__link {
-	color: hsl(156, 24%, 51%);
-	line-height: 1;
-	text-decoration: none;
-}
-
-.contact-box__link--tel {
-	font-size: 1.6em;
-}

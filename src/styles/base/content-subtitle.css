@@ -1,4 +1,6 @@
 .content-subtitle {
+	--heading-color: var(--color-green-800);
+
 	margin: 0;
 	margin-bottom: 0.65em;
 

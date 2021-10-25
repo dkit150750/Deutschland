@@ -36,6 +36,8 @@
 }
 
 .mobile-menu__button-line {
+	--mobile-menu-button-color: var(--color-green-850);
+
 	display: block;
 
 	width: 100%;
@@ -140,8 +142,6 @@
 
 	width: 100%;
 	height: 100%;
-
-	color: var(--mobile-menu-button-color);
 }
 
 /* ============== */
