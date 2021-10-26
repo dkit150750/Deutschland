@@ -12,11 +12,19 @@
 	--page-color: hsl(0, 0%, 10%);
 	--page-backgound: hsl(0, 0%, 100%);
 	--color-white: hsl(0, 0%, 100%);
+	--color-black: hsl(0, 0%, 0%);
+	--color-green-50: hsl(111, 12%, 88%);
+	--color-green-150: hsl(154, 24%, 87%);
+	--color-green-200: hsl(155, 26%, 77%);
+	--color-green-500: hsl(153, 23%, 69%);
 	--color-green-600: hsl(154, 20%, 54%);
 	--color-green-650: hsl(109, 21%, 45%);
 	--color-green-700: hsl(154, 56%, 24%);
 	--color-green-800: hsl(153, 74%, 16%);
 	--color-green-850: hsl(141, 100%, 15%);
+	--color-green-1000: hsl(107, 50%, 5%);
+	--color-gray-100: hsl(0, 0%, 85%);
+	--color-gray-150: hsl(0, 0%, 96%);
 }
 
 .sr-only {

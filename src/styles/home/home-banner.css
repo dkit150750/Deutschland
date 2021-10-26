@@ -1,7 +1,7 @@
 .home-banner {
 	padding: 34px 0 20px;
 
-	background-color: hsl(107, 50%, 5%);
+	background-color: var(--color-green-1000);
 	background-image: url('../../images/home-banner.webp');
 	background-repeat: no-repeat;
 	background-position: center;
@@ -38,7 +38,7 @@
 .home-banner__description {
 	margin-bottom: 0;
 
-	color: hsl(0, 0%, 100%);
+	color: var(--color-white);
 	font-size: 10px;
 }
 

@@ -64,7 +64,7 @@
 
 	margin: 0;
 
-	color: hsl(0, 0%, 100%);
+	color: var(--color-white);
 	font-weight: 400;
 	font-size: 24px;
 	line-height: 1;

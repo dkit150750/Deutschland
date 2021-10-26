@@ -41,11 +41,11 @@
 	height: var(--size);
 	margin-right: 1.1em;
 
-	background-color: white;
+	background-color: var(--color-white);
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 
-	box-shadow: 0 0 0 1px hsl(0, 0%, 81%);
+	box-shadow: 0 0 0 1px var(--color-gray-100);
 }
 
 .form-check__input:checked + .form-check__box::after {

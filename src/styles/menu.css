@@ -44,15 +44,15 @@
 }
 
 .menu__item--active {
-	background-color: hsl(153, 23%, 69%);
+	background-color: var(--color-green-500);
 }
 
 .menu__item--open {
-	background-color: hsl(154, 24%, 87%);
+	background-color: var(--color-green-150);
 }
 
 .menu__item:hover {
-	background-color: hsl(155, 26%, 77%);
+	background-color: var(--color-green-200);
 }
 
 .menu__link {
@@ -105,7 +105,7 @@
 	grid-auto-flow: row;
 	grid-template-columns: 1fr;
 
-	background-color: hsl(154, 24%, 87%);
+	background-color: var(--color-green-150);
 
 	visibility: hidden;
 

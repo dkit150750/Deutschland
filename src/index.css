@@ -36,7 +36,7 @@
 	width: 284px;
 	height: 486px;
 
-	color: hsl(111, 12%, 88%);
+	color: var(--color-green-50);
 
 	transform: translateX(50%);
 }

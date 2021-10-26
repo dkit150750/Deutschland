@@ -3,7 +3,7 @@
 
 	padding: 1.2em 1.9em;
 
-	color: hsl(0, 0%, 100%);
+	color: var(--color-white);
 	font-size: 14px;
 	font-family: inherit;
 	line-height: 1;
@@ -36,5 +36,5 @@
 }
 
 .button--inactive {
-	--background: hsl(0, 0%, 85%);
+	--background: var(--color-gray-100);
 }

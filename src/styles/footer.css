@@ -1,7 +1,5 @@
 .footer {
-	--foote-color: hsl(0, 0%, 100%);
-
-	color: var(--foote-color);
+	color: var(--color-white);
 
 	background-color: var(--color-green-700);
 }

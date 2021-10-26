@@ -38,7 +38,7 @@
 
 	outline: none;
 
-	box-shadow: 0 0 0 1px hsl(0, 0%, 81%);
+	box-shadow: 0 0 0 1px var(--color-gray-100);
 }
 
 .form-field__input--textarea {

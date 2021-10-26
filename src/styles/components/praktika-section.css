@@ -9,7 +9,7 @@
 }
 
 .praktika-section:nth-child(2n - 1) {
-	background-color: hsl(0, 0%, 96%);
+	background-color: var(--color-gray-150);
 }
 
 .praktika-section-container {
@@ -36,7 +36,7 @@
 	left: 0;
 	content: '”';
 
-	color: hsl(154, 28%, 84%);
+	color: var(--color-green-150);
 	font-size: 65px;
 	line-height: 1;
 

@@ -51,7 +51,7 @@
 .home-map__description-wrapper {
 	padding: 30px;
 
-	background-color: hsl(154, 20%, 54%);
+	background-color: var(--color-green-600);
 }
 
 @media (min-width: 1200px) {
@@ -71,6 +71,6 @@
 	max-width: 600px;
 	margin: 0;
 
-	color: hsl(0, 0%, 100%);
+	color: var(--color-white);
 	line-height: 1.7;
 }
