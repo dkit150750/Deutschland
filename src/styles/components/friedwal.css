@@ -23,6 +23,19 @@
 
 .friedwal h1,
 .friedwal h2 {
-	margin-top: 1.6em;
-	margin-bottom: 0.8em;
+	margin-top: 0.8em;
+}
+
+@media (min-width: 450px) {
+	.friedwal h1,
+	.friedwal h2 {
+		margin-top: 1.2em;
+	}
+}
+
+@media (min-width: 768px) {
+	.friedwal h1,
+	.friedwal h2 {
+		margin-top: 1.6em;
+	}
 }

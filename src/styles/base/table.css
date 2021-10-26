@@ -1,10 +1,12 @@
+.page-content table,
 .table {
 	width: 100%;
 
 	border-collapse: collapse;
 }
 
-.table caption {
+.table caption,
+.page-content table caption {
 	--heading-color: var(--color-green-800);
 
 	margin: 0 0 0.4em;
@@ -17,7 +19,8 @@
 }
 
 @media (min-width: 450px) {
-	.table caption {
+	.table caption,
+	.page-content table caption {
 		margin: 0 0 0.8em;
 
 		font-size: 22px;
@@ -25,21 +28,25 @@
 }
 
 @media (min-width: 768px) {
-	.table caption {
+	.table caption,
+	.page-content table caption {
 		margin: 0 0 1em;
 
 		font-size: 22px;
 	}
 }
 
-.table tr {
+.table tr,
+.page-content table tr {
 	border-bottom: 1px solid hsl(152, 24%, 88%);
 }
 
-.table td {
+.table td,
+.page-content table td {
 	padding: 8px 0;
 }
 
-.table tr td:nth-child(2) {
+.table tr td:nth-child(2),
+.page-content table tr td:nth-child(2) {
 	text-align: end;
 }

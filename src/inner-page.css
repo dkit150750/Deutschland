@@ -1,8 +1,3 @@
-@import './styles/inner-page/base/title.css';
-@import './styles/inner-page/base/text.css';
-@import './styles/inner-page/base/link.css';
-@import './styles/inner-page/base/table.css';
-
 @import './styles/components/page-content.css';
 @import './styles/components/page-content-container.css';
 @import './styles/components/content-article.css';

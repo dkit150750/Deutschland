@@ -1,14 +1,17 @@
+.home-about__text-wrapper h2,
 .content-subtitle {
 	--heading-color: var(--color-green-800);
 
 	margin: 0;
-	margin-bottom: 0.65em;
+	margin-bottom: 0.2em;
 
 	color: var(--heading-color);
+	font-weight: 400;
 	font-size: 15px;
 }
 
 @media (min-width: 768px) {
+	.home-about__text-wrapper h2,
 	.content-subtitle {
 		font-size: 25px;
 	}

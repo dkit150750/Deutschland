@@ -1,22 +1,22 @@
-.content-article__columns {
-	margin-top: 20px;
-}
-
-@media (min-width: 460px) {
-	.content-article__columns {
-		margin-top: 25px;
-	}
-}
-
-@media (min-width: 768px) {
-	.content-article__columns {
-		margin-top: 35px;
-	}
-}
-
 @media (min-width: 900px) {
 	.content-article__columns {
 		column-count: 2;
 		column-gap: 60px;
+	}
+}
+
+.content-article + .content-article {
+	margin-top: 30px;
+}
+
+@media (min-width: 450px) {
+	.content-article + .content-article {
+		margin-top: 45px;
+	}
+}
+
+@media (min-width: 768px) {
+	.content-article + .content-article {
+		margin-top: 85px;
 	}
 }

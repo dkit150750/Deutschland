@@ -1,3 +1,5 @@
+.home-about__text-wrapper p,
+.page-content p,
 .content-text {
 	margin: 0;
 
@@ -5,17 +7,23 @@
 	line-height: 1.8;
 }
 
+.home-about__text-wrapper p + p,
+.page-content p + p,
 .content-text + .content-text {
 	margin-top: 1.3em;
 }
 
 @media (min-width: 450px) {
+	.home-about__text-wrapper p,
+	.page-content p,
 	.content-text {
 		font-size: 15px;
 	}
 }
 
 @media (min-width: 768px) {
+	.home-about__text-wrapper p,
+	.page-content p,
 	.content-text {
 		font-size: 19px;
 	}

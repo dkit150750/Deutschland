@@ -1,3 +1,6 @@
+.home-about__text-wrapper h1,
+.page-content h1,
+.page-content h2,
 .content-title {
 	--heading-color: var(--color-green-800);
 
@@ -9,12 +12,18 @@
 }
 
 @media (min-width: 450px) {
+	.home-about__text-wrapper h1,
+	.page-content h1,
+	.page-content h2,
 	.content-title {
 		font-size: 35px;
 	}
 }
 
 @media (min-width: 768px) {
+	.home-about__text-wrapper h1,
+	.page-content h1,
+	.page-content h2,
 	.content-title {
 		font-size: 42px;
 	}
