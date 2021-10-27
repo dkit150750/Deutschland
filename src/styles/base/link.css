@@ -12,20 +12,18 @@
 }
 
 .link--phone {
-	font-size: 1.6em;
+	font-size: 1.3em;
 	line-height: 1;
 }
 
-.link--big {
-	font-size: 1.1em;
-}
-
-@media (min-width: 760px) {
-	.link--big {
-		font-size: 1.3em;
+@media (min-width: 450px) {
+	.link--phone {
+		font-size: 1.4em;
 	}
 }
 
-.link--italic {
-	font-style: italic;
+@media (min-width: 768px) {
+	.link--phone {
+		font-size: 1.6em;
+	}
 }
