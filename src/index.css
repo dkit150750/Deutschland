@@ -29,7 +29,7 @@
 
 .main__wappen {
 	position: absolute;
-	top: 32%;
+	top: 35%;
 	right: 0;
 	z-index: -1;
 
@@ -38,7 +38,7 @@
 
 	color: var(--color-green-50);
 
-	transform: translateX(50%);
+	transform: translateX(64%);
 }
 
 .main__wappen-svg {
