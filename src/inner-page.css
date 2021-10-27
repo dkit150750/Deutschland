@@ -24,7 +24,13 @@
 	display: block;
 
 	max-width: 195px;
-	max-height: 100%;
+	max-height: calc(100% - 40px);
+}
+
+@media (min-width: 768px) {
+	.main__zweig {
+		max-height: calc(100% - 80px);
+	}
 }
 
 @media (min-width: 1000px) {
