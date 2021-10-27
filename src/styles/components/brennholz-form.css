@@ -33,6 +33,12 @@
 	gap: 20px;
 }
 
+@media (min-width: 768px) {
+	.brennholz-form__radio-group-inner {
+		gap: 35px;
+	}
+}
+
 .brennholz-form__radio-group-title {
 	grid-column: 1 / -1;
 }
