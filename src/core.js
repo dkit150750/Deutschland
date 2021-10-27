@@ -1,5 +1,29 @@
 /* eslint-disable max-classes-per-file */
 {
+	const links = document.querySelectorAll('.menu__link');
+	links.forEach((link) => {
+		if (link.href === window.location.href) {
+			const submenu = link.closest('.menu__list--sumbenu');
+			const parent = submenu ? submenu.closest('.menu__item') : link.closest('.menu__item');
+			parent.classList.add('menu__item--active');
+		}
+	});
+
+	const mobileLinks = document.querySelectorAll('.mobile-menu__link');
+	mobileLinks.forEach((link) => {
+		if (link.href === window.location.href) {
+			link.classList.add('mobile-menu__link--active');
+			const submenu = link.closest('.mobile-menu__list--sumbenu');
+
+			if (submenu) {
+				const parent = submenu.closest('.mobile-menu__item');
+				parent.querySelector('.mobile-menu__link').classList.add('mobile-menu__link--active');
+			}
+		}
+	});
+}
+
+{
 	class Menu {
 		constructor(select) {
 			this.$menu = document.querySelector(select);
