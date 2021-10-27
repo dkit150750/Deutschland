@@ -4,8 +4,15 @@
 @import './styles/components/parallax.css';
 @import './styles/components/breadcrumbs.css';
 
+.main {
+	grid-auto-rows: auto;
+	grid-template-rows: min-content;
+}
+
 .main__inner {
 	position: relative;
+
+	height: 100%;
 }
 
 .main__zweig {
