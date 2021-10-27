@@ -44,7 +44,7 @@
 }
 
 .menu__item--active {
-	background-color: var(--color-green-500);
+	background-color: var(--color-green-150);
 }
 
 .menu__item--open {

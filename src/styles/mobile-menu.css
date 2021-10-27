@@ -200,7 +200,7 @@
 }
 
 .mobile-menu__link--active {
-	background-color: var(--color-green-500);
+	background-color: var(--color-green-150);
 }
 
 .mobile-menu__link:focus,

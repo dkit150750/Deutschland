@@ -3,9 +3,7 @@
 .home-about__text-wrapper p span,
 .page-content p span,
 .link {
-	--link-color: var(--color-green-650);
-
-	color: var(--link-color);
+	color: var(--color-green-620);
 	font-weight: 700;
 	text-decoration: none;
 	word-break: break-all;
