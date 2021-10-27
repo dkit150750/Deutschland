@@ -28,20 +28,28 @@
 }
 
 .main__wappen {
-	position: absolute;
-	top: 35%;
-	right: 0;
-	z-index: -1;
-
-	width: 284px;
-	height: 486px;
-
-	color: var(--color-green-50);
-
-	transform: translateX(64%);
+	display: block;
 }
 
-.main__wappen-svg {
-	width: 284px;
-	height: 486px;
+@media (min-width: 700px) {
+	.main__wappen {
+		position: absolute;
+		top: 35%;
+		right: 0;
+		z-index: -1;
+
+		display: block;
+
+		width: 284px;
+		height: 486px;
+
+		color: var(--color-green-50);
+
+		transform: translateX(64%);
+	}
+
+	.main__wappen-svg {
+		width: 284px;
+		height: 486px;
+	}
 }
