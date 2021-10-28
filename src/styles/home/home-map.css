@@ -51,7 +51,7 @@
 .home-map__description-wrapper {
 	padding: 30px;
 
-	background-color: var(--color-green-600);
+	background-color: var(--color-green-610);
 }
 
 @media (min-width: 1200px) {
